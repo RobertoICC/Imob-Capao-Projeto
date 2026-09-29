@@ -11,11 +11,12 @@
 ```
 🏖️ ESTREIA DA 2ª TEMPORADA DO VITRINE NA PRAIA!
 
-No episódio 1, a gente sobe ao Edifício Absoluto Palace, no Bairro Navegantes, em Capão da Canoa/RS: um apartamento de altíssimo padrão, mobiliado, decorado e pronto para entrar.
+No episódio 1, a gente sobe ao Edifício Absoluto Palace, no Bairro Navegantes, em Capão da Canoa/RS, a 4 quadras do mar: um apartamento de altíssimo padrão, mobiliado, decorado e pronto para entrar.
 
 Nesta temporada, além do tour completo, mostramos os NÚMEROS de cada imóvel e para quem ele é ideal: morar, veranear ou investir.
 
 📋 O apartamento
+• 4 quadras do mar
 • 96 m² privativos
 • 3 dormitórios, sendo 1 suíte
 • Banheiro social + lavabo
@@ -39,7 +40,7 @@ Nesta temporada, além do tour completo, mostramos os NÚMEROS de cada imóvel e
 ⏱️ Capítulos
 00:00 Estreia da 2ª Temporada
 00:22 Onde estamos
-00:55 Bairro Navegantes
+00:55 Bairro Navegantes, a 4 quadras do mar
 01:45 Estrutura do edifício e rooftop
 04:30 Tour pelo apartamento
 08:30 Números do Imóvel
@@ -61,7 +62,7 @@ Confiança e Honestidade você encontra aqui.
 
 ## Tags
 
-vitrine na praia, absoluto palace capão da canoa, apartamento alto padrão capão da canoa, apartamento 3 dormitórios capão da canoa, bairro navegantes capão da canoa, apartamento mobiliado capão da canoa, piscina aquecida capão da canoa, rooftop capão da canoa, imóveis capão da canoa, imóvel na praia rs, litoral gaúcho, imobiliária capão da canoa
+vitrine na praia, absoluto palace capão da canoa, apartamento alto padrão capão da canoa, apartamento 3 dormitórios capão da canoa, bairro navegantes capão da canoa, apartamento mobiliado capão da canoa, apartamento 4 quadras do mar capão da canoa, piscina aquecida capão da canoa, rooftop capão da canoa, imóveis capão da canoa, imóvel na praia rs, litoral gaúcho, imobiliária capão da canoa
 
 ## Thumbnail
 

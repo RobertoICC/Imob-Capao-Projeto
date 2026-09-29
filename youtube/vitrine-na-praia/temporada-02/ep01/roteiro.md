@@ -18,7 +18,7 @@
 | Vaga | Box duplo |
 | Estado | Mobiliado, decorado e totalmente climatizado |
 | Acabamento | Alto padrão |
-| Distância do mar | [confirmar] |
+| Distância do mar | 4 quadras |
 | Condomínio / IPTU | [confirmar] |
 | Valor | R$ 1.990.000,00. Estuda propostas |
 | Perfil | Morar o ano todo, veranear com a família ou investir |
@@ -45,7 +45,8 @@
 ## 4. Chegada e localização, 0:55–1:45
 *Fachada, rua, entorno do Navegantes, caminho até a praia.*
 
-> "Estamos na Rua Marabá, no Navegantes, um dos bairros mais procurados de Capão da Canoa. Daqui até a praia são [confirmar: X minutos a pé]. E você tem [confirmar: mercado, padaria, restaurantes] aqui pertinho."
+> "Estamos na Rua Marabá, no Navegantes, um dos bairros mais procurados de Capão da Canoa. Daqui até a praia são só 4 quadras: dá para ir a pé, com a cadeira e o guarda-sol, sem se preocupar com carro nem estacionamento. E você tem [confirmar: mercado, padaria, restaurantes] aqui pertinho."
+*Gravar: o caminho das 4 quadras até a areia em timelapse ou hyperlapse, terminando no mar.*
 
 ## 5. Hall e estrutura do edifício, 1:45–4:30
 *Começar pelo hall e terminar no rooftop, que é a melhor imagem.*
@@ -86,6 +87,7 @@
 *Tela com a ficha em lettering. Apresentador narra.*
 
 > "Agora, os números:
+> • 4 quadras do mar
 > • 96 m² privativos
 > • 3 dormitórios, sendo 1 suíte, mais banheiro social e lavabo
 > • Box duplo

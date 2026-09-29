@@ -22,7 +22,7 @@ Vídeo de referência: 29 s, 1080×1920 (9:16), com trilha sonora.
 ```
 🏖️ VEM AÍ: 2ª TEMPORADA DO VITRINE NA PRAIA
 
-O EP01 é neste apartamento no Edifício Absoluto Palace, em Navegantes:
+O EP01 é neste apartamento no Edifício Absoluto Palace, em Navegantes, a 4 quadras do mar:
 3 dormitórios (1 suíte) • 96 m² • mobiliado e decorado
 Piscina aquecida, spa e hidromassagem no rooftop com vista para o mar 🌊
 
