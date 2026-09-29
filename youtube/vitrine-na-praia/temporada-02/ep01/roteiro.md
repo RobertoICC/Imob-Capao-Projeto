@@ -50,7 +50,8 @@
 ## 5. Hall e estrutura do edifício, 1:45–4:30
 *Começar pelo hall e terminar no rooftop, que é a melhor imagem.*
 
-- **Hall de entrada:** "Já na chegada você vê o padrão: hall mobiliado e decorado, dois elevadores, zeladoria e sistema de segurança."
+- **Hall de entrada:** *(painéis com rasgos de LED em chevron, sanca iluminada, piso marmorizado polido, portais dos elevadores em pedra translúcida retroiluminada, parede espelhada, estar com sofá)* "Já na chegada você vê o padrão: olha esses elevadores revestidos em pedra iluminada por trás, as paredes com LED e o piso marmorizado. Hall mobiliado e decorado, dois elevadores, zeladoria e sistema de segurança."
+  *Gravar: entrada lenta pela porta até os elevadores, com as luzes acesas. Evitar enquadrar de perto as placas de aviso e o painel do elevador.*
 - **Piscina interna aquecida + spa e hidromassagem:** "Isso aqui é o que faz a diferença para quem quer usar o apartamento o ano inteiro, não só no verão. Inverno no litoral com piscina aquecida é outra história."
 - **Academia (com vista para o mar):** "Olha a vista da academia: dá para treinar olhando o mar."
 - **Sala gamer e sala de jogos:** "E tem espaço para a gurizada também: sala gamer completa e sala de jogos."
@@ -65,7 +66,7 @@
 - **Hall de entrada do apartamento:** *(aparador suspenso com parede espelhada e vasos com borda dourada)* "Logo na entrada, aparador suspenso e parede espelhada, que amplia o ambiente."
 - **Mesa de jantar:** *(mesa de madeira para 8 lugares com cadeiras em tecido claro, espelho com recorte geométrico e moldura em LED dourado)* "Mesa para oito pessoas, integrada com a sala e a cozinha. Olha o detalhe desse espelho com iluminação."
 - **Painel da TV:** *(painel com fita de LED dourada e prateleiras de vidro, rack suspenso, puffs)* tomada de detalhe
-- **Lavabo:** "Lavabo para as visitas, detalhe que faz falta em muito apartamento de praia."
+- **Lavabo:** *(papel de parede texturizado em cinza, bancada suspensa em mármore bege, cuba de apoio, metais cromados, espelho com painel ripado)* "Lavabo para as visitas, com bancada em mármore e cuba de apoio. Detalhe que faz falta em muito apartamento de praia."
 - **Balcão americano:** *(bancada em granito preto com banquetas, pendentes dourados, painel ripado de madeira)* "Balcão americano com banquetas: o café da manhã já tem lugar."
 - **Cozinha e churrasqueira:** *(planejados em grafite com detalhes em madeira, bancada de granito preto, cooktop, forno embutido, geladeira inox, churrasqueira com revestimento em pedra)* "Cozinha toda planejada, eletros inclusos e churrasqueira integrada. O churrasco de domingo acontece aqui mesmo, junto com a família."
 - **Área de serviço:** *(máquina de lavar)* "E área de serviço separada, com máquina."
@@ -73,7 +74,9 @@
   *Gravar: plano começando dentro da sala e saindo para a sacada, e depois um plano ao longo da sacada mostrando a extensão.*
 - **Circulação:** *(quadro grande de cachoeira no corredor)* tomada de passagem
 - **Suíte:** *(cabeceira com LED, roupa de cama em verde-musgo, armário com porta espelhada, ar split, TV em painel)* "A suíte tem cabeceira com iluminação indireta, armário espelhado e ar-condicionado."
-- **Demais dormitórios:** *(um com duas camas de solteiro; outro de casal com piso amadeirado)* "E os outros dois dormitórios servem para os filhos, para hóspedes ou para um home office. Todos climatizados."
+- **Dormitório de solteiro:** *(duas camas de solteiro, cabeceira contínua em madeira com LED, papel de parede texturizado, armário de correr com espelho, TV, ar split, piso vinílico amadeirado)* "Esse é o quarto das crianças ou dos hóspedes: duas camas, cabeceira em madeira com iluminação indireta, armário com espelho, TV e ar-condicionado."
+- **Terceiro dormitório (casal):** *(cama de casal com manta terracota, cabeceira estofada com LED, roupeiro alto, criado-mudo, TV, ar split)* "E o terceiro dormitório também é de casal, com roupeiro alto, TV e ar. Serve para receber a família toda no verão."
+  > "Repara que todos os quartos seguem o mesmo padrão: cabeceira com LED, ar-condicionado, TV e piso amadeirado. Nenhum quarto foi deixado de lado."
 - **Banheiro social:** acabamento
 - **Garagem:** "E lá embaixo tem box duplo, para dois carros. No verão, em Capão, isso vale ouro."
 
