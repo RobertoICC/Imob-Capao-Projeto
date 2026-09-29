@@ -31,8 +31,8 @@
 
 > "Hidromassagem no rooftop olhando para o mar, piscina aquecida e um apartamento de três dormitórios pronto para entrar. A 2ª temporada do Vitrine na Praia começa nas alturas."
 
-## 2. Vinheta, 0:15–0:25
-*Vinheta padrão "Vitrine na Praia" (9,6 s) + selo "2ª Temporada", ou o novo card de abertura, se aprovado.*
+## 2. Card de abertura, 0:15–0:20
+*Card novo da T2 (`../card/card-t2-ep01.mp4`, 5 s): Temporada 2, Episódio 01, Edifício Absoluto Palace, Roberto.*
 
 ## 3. Apresentação da temporada, 0:22–0:55
 *Apresentador na frente do Edifício Absoluto Palace.*

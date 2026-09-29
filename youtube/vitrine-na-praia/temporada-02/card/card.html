@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Card T2 Vitrine na Praia</title>
+<style>
+  @font-face { font-family: 'Oswald'; font-weight: 700; src: url(fonts/Oswald-wght-700.woff2) format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 500; src: url(fonts/Montserrat-wght-500.woff2) format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 600; src: url(fonts/Montserrat-wght-600.woff2) format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 700; src: url(fonts/Montserrat-wght-700.woff2) format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 800; src: url(fonts/Montserrat-wght-800.woff2) format('woff2'); }
+  @font-face { font-family: 'Great Vibes'; font-weight: 400; src: url(fonts/Great-Vibes.woff2) format('woff2'); }
+  /* Troque só estes campos a cada episódio (ou passe ?ep=02&predio=...&bairro=...&foto=... na URL) */
+  :root {
+    --navy: #0b1c36;
+    --navy-2: #13294d;
+    --gold: #d4a94f;
+    --gold-light: #f3d488;
+    --white: #ffffff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--navy); }
+  .card {
+    position: relative; width: 1920px; height: 1080px; overflow: hidden;
+    background: radial-gradient(120% 90% at 0% 0%, var(--navy-2) 0%, var(--navy) 60%);
+    font-family: 'Montserrat', sans-serif; color: var(--white);
+  }
+
+  /* Foto do imóvel com o corte diagonal dourado da identidade */
+  .photo {
+    position: absolute; inset: 0;
+    background-size: cover; background-position: center;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 38% 100%);
+  }
+  .photo::after {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(90deg, rgba(11,28,54,.55) 0%, rgba(11,28,54,0) 35%), linear-gradient(200deg, rgba(8,21,42,.55) 0%, rgba(8,21,42,0) 45%);
+  }
+  .diag {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, var(--gold-light), var(--gold));
+    clip-path: polygon(49.3% 0, 50% 0, 38% 100%, 37.3% 100%);
+  }
+
+  /* Logo */
+  .logo { position: absolute; left: 96px; top: 70px; display: flex; flex-direction: column; align-items: center; width: 560px; }
+  .logo svg { width: 250px; height: 110px; }
+  .logo .name { font-weight: 800; font-size: 58px; letter-spacing: 1px; line-height: 1; margin-top: 6px; white-space: nowrap; }
+  .logo .name b { color: var(--gold); font-weight: 800; }
+  .logo .tag { font-weight: 600; font-size: 20px; letter-spacing: 6px; margin-top: 10px; color: #dfe6f2; }
+  .logo .rule { width: 260px; height: 2px; margin-top: 12px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+
+  /* Temporada / episódio */
+  .season {
+    position: absolute; left: 96px; top: 400px;
+    display: inline-block; padding: 12px 28px 10px;
+    background: linear-gradient(90deg, var(--gold-light), var(--gold));
+    color: var(--navy); font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 34px; letter-spacing: 6px;
+    clip-path: polygon(0 0, 100% 0, 94% 100%, 0 100%);
+    padding-right: 48px;
+  }
+  .episode {
+    position: absolute; left: 90px; top: 500px;
+    font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 138px; line-height: 1; letter-spacing: 1px;
+    text-shadow: 0 6px 24px rgba(0,0,0,.35);
+  }
+  .episode span { color: var(--gold); }
+  .property { position: absolute; left: 96px; top: 690px; max-width: 600px; }
+  .property .building { font-weight: 800; font-size: 42px; color: var(--gold-light); line-height: 1.15; }
+  .property .place { font-weight: 500; font-size: 28px; margin-top: 8px; color: #dfe6f2; }
+
+  /* Apresentador */
+  .host { position: absolute; left: 1340px; top: 540px; display: flex; flex-direction: column; align-items: center; }
+  .host .ring {
+    width: 300px; height: 300px; border-radius: 50%; padding: 8px;
+    background: linear-gradient(135deg, var(--gold-light), var(--gold) 60%, #9c7a2f);
+    box-shadow: 0 18px 40px rgba(0,0,0,.45);
+  }
+  .host .ring img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; }
+  .host .who {
+    margin-top: -26px; padding: 10px 26px; background: var(--navy); border: 2px solid var(--gold);
+    border-radius: 40px; font-weight: 700; font-size: 24px; white-space: nowrap; position: relative;
+  }
+  .host .who small { display: block; font-weight: 500; font-size: 15px; letter-spacing: 3px; color: var(--gold-light); text-align: center; }
+  .script {
+    position: absolute; left: 1140px; top: 250px; width: 700px; text-align: center;
+    font-family: 'Great Vibes', cursive; font-size: 72px; line-height: 1.05; color: var(--white);
+    text-shadow: 0 3px 16px rgba(0,0,0,.9), 0 0 4px rgba(0,0,0,.6);
+    transform: rotate(-4deg);
+  }
+
+  /* Barra inferior */
+  .bar {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 120px;
+    background: rgba(8,21,42,.96); border-top: 2px solid var(--gold);
+    display: flex; align-items: center; padding: 0 96px;
+  }
+  .bar svg { width: 62px; height: 62px; flex: none; }
+  .bar .sep { width: 2px; height: 60px; background: rgba(255,255,255,.35); margin: 0 30px; }
+  .bar .slogan { font-weight: 700; font-size: 26px; line-height: 1.35; }
+  .bar .slogan em { font-style: normal; color: var(--gold); }
+  .bar .sub {
+    margin-left: auto; display: flex; align-items: center; gap: 14px;
+    background: #e02424; border-radius: 12px; padding: 14px 26px; font-weight: 800; font-size: 26px; letter-spacing: 1px;
+  }
+  .bar .sub svg { width: 46px; height: 34px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="photo" id="photo"></div>
+  <div class="diag"></div>
+
+  <div class="logo">
+    <!-- Recriação aproximada do logo (casa + onda + sol). Substituir pelo PNG original quando disponível. -->
+    <svg viewBox="0 0 250 110" aria-hidden="true">
+      <path d="M40 70 L105 22 L150 55" fill="none" stroke="#d4a94f" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+      <rect x="92" y="48" width="9" height="9" fill="#d4a94f"/><rect x="103" y="48" width="9" height="9" fill="#d4a94f"/>
+      <rect x="92" y="59" width="9" height="9" fill="#d4a94f"/><rect x="103" y="59" width="9" height="9" fill="#d4a94f"/>
+      <path d="M140 62 A34 34 0 0 1 208 62" fill="none" stroke="#f3d488" stroke-width="9" stroke-linecap="round"/>
+      <path d="M20 86 C60 60 95 100 135 80 S200 60 232 74" fill="none" stroke="#3aa0e8" stroke-width="10" stroke-linecap="round"/>
+      <path d="M35 100 C75 80 110 112 150 94 S205 80 225 88" fill="none" stroke="#1f5fae" stroke-width="8" stroke-linecap="round"/>
+      <path d="M190 18 q7 -7 14 0 q7 -7 14 0" fill="none" stroke="#ffffff" stroke-width="3"/>
+      <path d="M212 34 q5 -5 10 0 q5 -5 10 0" fill="none" stroke="#ffffff" stroke-width="3"/>
+    </svg>
+    <div class="name">VITRINE <b>NA PRAIA</b></div>
+    <div class="tag">IMÓVEIS NO LITORAL NORTE</div>
+    <div class="rule"></div>
+  </div>
+
+  <div class="season">TEMPORADA 2</div>
+  <div class="episode">EPISÓDIO <span id="ep">01</span></div>
+  <div class="property">
+    <div class="building" id="predio">Edifício Absoluto Palace</div>
+    <div class="place" id="bairro">Navegantes · Capão da Canoa/RS</div>
+  </div>
+
+  <div class="script">Vamos encontrar o seu<br>próximo endereço?</div>
+
+  <div class="host">
+    <div class="ring"><img src="assets/roberto.jpg" alt="Roberto Carvalho Guedes"></div>
+    <div class="who"><small>APRESENTAÇÃO</small>Roberto Carvalho Guedes</div>
+  </div>
+
+  <div class="bar">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 30 L32 10 L56 30 M16 24 V54 H48 V24 M27 54 V38 H37 V54" fill="none" stroke="#d4a94f" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/></svg>
+    <div class="sep"></div>
+    <div class="slogan">DO EPISÓDIO À VISITA.<br><em>ENCONTRE SEU IMÓVEL IDEAL EM ATÉ 30 DIAS.</em></div>
+    <div class="sub">
+      <svg viewBox="0 0 46 34" aria-hidden="true"><rect width="46" height="34" rx="9" fill="#fff"/><path d="M18 9 L31 17 L18 25 Z" fill="#e02424"/></svg>
+      INSCREVA-SE
+    </div>
+  </div>
+</div>
+<script>
+  // Parâmetros opcionais por episódio: card.html?ep=02&predio=Edifício%20Milano&bairro=Centro&foto=assets/ep02.jpg
+  const q = new URLSearchParams(location.search);
+  const set = (id, v) => { if (v) document.getElementById(id).textContent = v; };
+  set('ep', q.get('ep')); set('predio', q.get('predio')); set('bairro', q.get('bairro'));
+  document.getElementById('photo').style.backgroundImage = `url('${q.get('foto') || 'assets/ep01-absoluto-hall.jpg'}')`;
+</script>
+</body>
+</html>

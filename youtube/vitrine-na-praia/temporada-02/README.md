@@ -29,7 +29,7 @@ Isso cobre os dois públicos da imobiliária:
 ## Estrutura fixa de cada episódio (8 a 12 min)
 
 1. **Gancho (0:00–0:15)**: a melhor imagem do imóvel e uma frase de impacto
-2. **Vinheta "Vitrine na Praia" (9,6 s)**: entra logo após o gancho
+2. **Card de abertura da T2 (5 s, 16:9)**: entra logo após o gancho. Ver `card/`
 3. **Apresentação (0:22–0:50)**: quem apresenta, onde estamos, o que vamos ver
 4. **Chegada / localização (0:50–1:40)**: rua, distância do mar, comércio próximo
 5. **Tour pelo imóvel (1:40–7:00)**: sala → cozinha → quartos → área externa / terraço
@@ -51,11 +51,11 @@ Isso cobre os dois públicos da imobiliária:
 - **Narração completa:** Roberto grava o áudio do roteiro inteiro (não só a abertura) para sincronizar com o vídeo
 - **Legendas queimadas:** aprovadas, com **fonte menor** que a do teste do EP08
 - **Trilha com ducking dinâmico:** a música baixa sozinha durante a fala e sobe nas pausas
-- **Card/vinheta de abertura:** em avaliação. Decidir antes de publicar o EP01
+- **Card de abertura:** novo card 16:9 de 5 s, com temporada, episódio, prédio e apresentador (`card/`). Substitui a vinheta vertical da T1
 
 ## Episódios
 
 | EP | Imóvel | Status |
 |---|---|---|
-| 01 | Edifício Absoluto Palace, apto. 3 dormitórios, Navegantes | Em pré-produção. Ver `ep01/` |
+| 01 | Edifício Absoluto Palace, apto. 3 dormitórios, Navegantes | Confirmado como estreia. Em pré-produção. Ver `ep01/` |
 | 02 | *Candidato:* Edifício Milano, terraço em L com espera para spa (pendência da T1) | A definir |

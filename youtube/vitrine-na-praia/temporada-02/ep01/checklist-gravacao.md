@@ -10,8 +10,7 @@
 - [ ] Bateria e cartão de memória do celular/câmera; microfone de lapela
 - [ ] Estabilizador (gimbal) ou tripé
 - [ ] Drone e autorização, se for usar imagem aérea
-- [ ] Decidir se fica a vinheta padrão (9,6 s) ou entra o novo card de abertura da T2
-- [ ] Vinheta e selo "2ª Temporada" prontos para a edição
+- [x] Card de abertura da T2 pronto (`../card/card-t2-ep01.mp4`)
 
 ## Durante
 - [ ] Gravar na horizontal (16:9) para o YouTube
