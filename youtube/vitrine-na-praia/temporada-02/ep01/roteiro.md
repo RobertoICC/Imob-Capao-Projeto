@@ -31,13 +31,14 @@
 
 > "Hidromassagem no rooftop olhando para o mar, piscina aquecida e um apartamento de três dormitórios pronto para entrar. A 2ª temporada do Vitrine na Praia começa nas alturas."
 
-## 2. Vinheta, 0:15–0:22
-*Vinheta "Vitrine na Praia" + selo "2ª Temporada".*
+## 2. Vinheta, 0:15–0:25
+*Vinheta padrão "Vitrine na Praia" (9,6 s) + selo "2ª Temporada", ou o novo card de abertura, se aprovado.*
 
 ## 3. Apresentação da temporada, 0:22–0:55
 *Apresentador na frente do Edifício Absoluto Palace.*
 
-> "Olá! Eu sou [nome do apresentador], da Imobiliária Capão da Canoa. Há 17 anos a gente ajuda famílias e investidores a encontrar o imóvel certo aqui no litoral.
+> "Olá! Eu sou Roberto Carvalho Guedes, da Imobiliária Capão da Canoa. Há 17 anos a gente ajuda famílias e investidores a encontrar o imóvel certo aqui no litoral.
+> Na primeira temporada foram oito episódios, e a gente fechou no Premium Residence, lá no Centro, aqui mesmo na Rua Marabá. Pois a Temporada 2 começa na mesma rua, só que agora no Navegantes.
 > Nesta temporada, além de mostrar os imóveis, vou mostrar os números de cada um e para quem ele é ideal: morar, veranear ou investir.
 > E a gente estreia aqui no Bairro Navegantes, no Edifício Absoluto Palace. Bora subir?"
 
@@ -103,6 +104,7 @@
 ## 9. Chamada final, 10:15–fim
 
 > "Gostou do Absoluto Palace? Chama a gente no WhatsApp **51 98421-1346** e pede a ficha completa e o agendamento da sua visita. A gente atende de domingo a domingo, presencialmente na Rua Sepé, 2222, Loja 06, no Centro de Capão da Canoa, ou on-line, em português, espanhol ou inglês.
-> Se inscreve no canal e ativa o sininho, porque no próximo episódio eu vou te mostrar [prévia do EP02]. Até lá!"
+> Lembra: do episódio à visita, a gente te ajuda a encontrar o seu imóvel ideal em até 30 dias.
+> Se inscreve no canal e ativa o sininho, porque no próximo episódio eu vou te mostrar [prévia do EP02; candidato: um apartamento com terraço em L e espera para spa]. Até lá!"
 
 *Tela final (últimos 20 s): botão de inscrição + vídeo sugerido + playlist da temporada.*

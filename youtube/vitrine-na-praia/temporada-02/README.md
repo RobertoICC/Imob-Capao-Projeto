@@ -1,7 +1,10 @@
 # Vitrine na Praia — 2ª Temporada
 
 **Canal:** YouTube @altopadraodolitoral
-**Apresentação:** Imobiliária Capão da Canoa — *"Confiança e Honestidade você encontra aqui"*
+**Apresentação:** Roberto Carvalho Guedes, Imobiliária Capão da Canoa: *"Confiança e Honestidade você encontra aqui"*
+**Slogan da vinheta:** "Do episódio à visita: encontre seu imóvel ideal em até 30 dias."
+**Cadência:** média de 2 episódios por semana
+**Temporada anterior:** ver `../temporada-01/README.md` (8 episódios, final no Premium Residence)
 **Praça:** Capão da Canoa e Xangri-Lá (litoral gaúcho)
 
 ## Proposta da temporada
@@ -26,7 +29,7 @@ Isso cobre os dois públicos da imobiliária:
 ## Estrutura fixa de cada episódio (8 a 12 min)
 
 1. **Gancho (0:00–0:15)**: a melhor imagem do imóvel e uma frase de impacto
-2. **Vinheta "Vitrine na Praia" (0:15–0:22)**
+2. **Vinheta "Vitrine na Praia" (9,6 s)**: entra logo após o gancho
 3. **Apresentação (0:22–0:50)**: quem apresenta, onde estamos, o que vamos ver
 4. **Chegada / localização (0:50–1:40)**: rua, distância do mar, comércio próximo
 5. **Tour pelo imóvel (1:40–7:00)**: sala → cozinha → quartos → área externa / terraço
@@ -36,13 +39,23 @@ Isso cobre os dois públicos da imobiliária:
 
 ## Padrões visuais e de nome
 
-- **Título:** `[Gancho] | Vitrine na Praia T2 EP01`
-- **Thumbnail:** foto mais forte do imóvel, no máximo 4 palavras grandes, selo "T2" no canto
+- **Título:** no padrão da T1, `🎬 [Gancho] | Episódio N do Vitrine na Praia` ou `[Gancho] | Vitrine na Praia T2 EP01`
+- **Thumbnail (identidade fixa da T1):** logo "Vitrine na Praia" (casa + onda + sol), corte diagonal dourado separando texto e foto, faixa de destaque (Oportunidade, Alto Padrão, Mobiliado…), preço em caixa dourada com sombra, barra inferior "Inscreva-se". Na T2, acrescentar o selo "T2 • EP0N"
+- **Pacote por episódio:** título, descrição, roteiro, comentário fixado e texto para Instagram/Facebook/WhatsApp
+- **Descrição:** fecha com o aviso "As informações, valores e condições de negociação podem sofrer alterações. Consulte o responsável pelo imóvel para confirmar os dados atualizados." e as hashtags fixas
 - **Playlist:** "Vitrine na Praia — 2ª Temporada"
 - **Idiomas:** legendas em PT, com ES e EN nos episódios de maior alcance (atendimento multilíngue é um diferencial)
+
+## Novidades de produção da T2 (testadas no EP08 da T1)
+
+- **Narração completa:** Roberto grava o áudio do roteiro inteiro (não só a abertura) para sincronizar com o vídeo
+- **Legendas queimadas:** aprovadas, com **fonte menor** que a do teste do EP08
+- **Trilha com ducking dinâmico:** a música baixa sozinha durante a fala e sobe nas pausas
+- **Card/vinheta de abertura:** em avaliação. Decidir antes de publicar o EP01
 
 ## Episódios
 
 | EP | Imóvel | Status |
 |---|---|---|
 | 01 | Edifício Absoluto Palace, apto. 3 dormitórios, Navegantes | Em pré-produção. Ver `ep01/` |
+| 02 | *Candidato:* Edifício Milano, terraço em L com espera para spa (pendência da T1) | A definir |

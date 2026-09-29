@@ -2,7 +2,8 @@
 
 ## Opções de título (até 70 caracteres)
 
-1. `Piscina aquecida, rooftop e 3 dorms em Capão | Vitrine na Praia T2 EP01` *(recomendado)*
+1. `🎬 ESTREIA DA TEMPORADA 2! Episódio 1 do Vitrine na Praia` *(recomendado: segue o padrão do final da T1)*
+1. `Piscina aquecida, rooftop e 3 dorms em Capão | Vitrine na Praia T2 EP01`
 2. `Sofisticação nas alturas: Absoluto Palace, Capão da Canoa | T2 EP01`
 3. `Apartamento de R$ 1,99 mi em Capão da Canoa: vale? | Vitrine na Praia EP01`
 
@@ -54,8 +55,13 @@ Nesta temporada, além do tour completo, mostramos os NÚMEROS de cada imóvel e
 
 Imobiliária Capão da Canoa: 17 anos no litoral gaúcho.
 Confiança e Honestidade você encontra aqui.
+Do episódio à visita: encontre seu imóvel ideal em até 30 dias.
 
-#VitrineNaPraia #CapaoDaCanoa #AltoPadrao #ImoveisNaPraia #Navegantes #LitoralGaucho
+Perdeu a 1ª temporada? Assista ao grande final no Premium Residence: https://youtu.be/5swbYVYIvg8
+
+As informações, valores e condições de negociação podem sofrer alterações. Consulte o responsável pelo imóvel para confirmar os dados atualizados.
+
+#vitrinenapraia #capaodacanoa #AbsolutoPalace #Navegantes #imobiliariacapaodacanoa #AltoPadraoCapaoDaCanoa #altopadraodolitoral #imoveisavenda #temporada2
 ```
 
 > Ajuste os capítulos para os tempos reais depois da edição. O YouTube exige que o primeiro seja `00:00` e que haja pelo menos 3 capítulos.
@@ -69,8 +75,10 @@ vitrine na praia, absoluto palace capão da canoa, apartamento alto padrão cap�
 - Foto: a hidromassagem do rooftop com o mar ao fundo (vídeo de stories, ~28 s) **ou** a foto ampla do living (sofá rosé com manta verde em primeiro plano, mesa de jantar, balcão e cozinha ao fundo, lustre dourado aceso), a mais forte das fotografias porque mostra o apartamento inteiro integrado num só quadro
 - Imagem secundária (cartão, Comunidade, Instagram): a sala abrindo para a sacada corrida, com céu azul
 - Alternativa para teste A/B de thumbnail: uma com a vista do rooftop e outra com o interior
+- **Seguir a identidade fixa da T1:** logo "Vitrine na Praia" (casa + onda + sol), corte diagonal dourado separando texto e foto, preço **R$ 1.990.000** em caixa dourada com sombra, barra inferior "Inscreva-se"
+- Faixa de destaque: **"ALTO PADRÃO"** ou **"MOBILIADO"**
 - Texto (máx. 4 palavras): **"SOFISTICAÇÃO NAS ALTURAS"** ou **"PISCINA AQUECIDA NA PRAIA"**
-- Selo no canto: **"T2 • EP01"**
+- Selo novo: **"T2 • EP01"** (ou "ESTREIA T2")
 - Rosto do apresentador com expressão de surpresa diante da vista
 - ❌ Nenhuma imagem com o número do apartamento ou placa de andar
 
@@ -78,9 +86,36 @@ vitrine na praia, absoluto palace capão da canoa, apartamento alto padrão cap�
 
 - Playlist: **Vitrine na Praia, 2ª Temporada** (criar agora)
 - Tela final: inscrição + playlist da T1
-- Cartão por volta de 8:30 apontando para o melhor vídeo da T1
+- Cartão aos ~0:40 (quando o Roberto cita o final da T1) apontando para o EP08 da T1: https://youtu.be/5swbYVYIvg8
 - Agendar como **Estreia (Premiere)** para gerar expectativa
-- Comentário fixado: "Piscina aquecida ou rooftop: qual você usaria mais? E qual imóvel você quer ver no EP02? 👇"
+- Comentário fixado:
+  ```
+  🎬 Começou a Temporada 2 do Vitrine na Praia!
+  Piscina aquecida ou hidromassagem no rooftop: qual você usaria mais? 👇
+  Quer a ficha completa do Absoluto Palace? Chama no WhatsApp 51 98421-1346.
+  ```
+
+## Texto para Instagram / Facebook / WhatsApp
+
+```
+🎬 ESTREIA DA TEMPORADA 2 DO VITRINE NA PRAIA!
+
+Episódio 1: Edifício Absoluto Palace, Navegantes, Capão da Canoa/RS 🏖️
+📍 A 4 quadras do mar
+
+✨ 3 dormitórios (1 suíte) • 96 m² privativos
+✨ Mobiliado, decorado e totalmente climatizado
+✨ Box duplo
+🏢 Piscina interna aquecida, spa, hidromassagem no rooftop com vista para o mar, academia, espaço gourmet e sala gamer
+
+💰 R$ 1.990.000,00. Estuda propostas.
+
+▶️ Episódio completo no YouTube: @altopadraodolitoral [link do episódio]
+📲 Ficha completa e visita: 51 98421-1346
+
+Confiança e Honestidade você encontra aqui.
+#vitrinenapraia #capaodacanoa #altopadraodolitoral
+```
 
 ## Divulgação da estreia
 

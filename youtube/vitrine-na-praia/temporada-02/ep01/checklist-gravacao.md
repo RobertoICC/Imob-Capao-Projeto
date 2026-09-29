@@ -10,6 +10,7 @@
 - [ ] Bateria e cartão de memória do celular/câmera; microfone de lapela
 - [ ] Estabilizador (gimbal) ou tripé
 - [ ] Drone e autorização, se for usar imagem aérea
+- [ ] Decidir se fica a vinheta padrão (9,6 s) ou entra o novo card de abertura da T2
 - [ ] Vinheta e selo "2ª Temporada" prontos para a edição
 
 ## Durante
@@ -20,11 +21,14 @@
 - [ ] Rooftop gravado no fim de tarde (pôr do sol = melhor imagem do episódio)
 - [ ] ❌ Não filmar a porta com o número do apartamento, placas de andar nem painel do elevador
 - [ ] Gravar o gancho e a chamada final 2 ou 3 vezes
+- [ ] Gravar a **narração completa** do roteiro em áudio separado, para sincronizar na edição
 - [ ] Fotos em alta resolução para a thumbnail
 
 ## Depois
 - [ ] Edição com vinheta, lettering do quadro "Números do Imóvel" e tela final
-- [ ] Legendas em PT (e ES/EN se possível)
+- [ ] Takes verticais no 16:9 com fundo desfocado nas laterais
+- [ ] Trilha com ducking dinâmico (baixa na fala, sobe nas pausas)
+- [ ] Legendas queimadas em PT com **fonte menor** que a do EP08 da T1 (e ES/EN se possível)
 - [ ] Capítulos com os tempos reais
 - [ ] Thumbnail
 - [ ] Revisão final: nenhum nome de proprietário/contato, nenhuma menção a comissão, nenhum número de apartamento (vídeo, descrição, legendas e thumbnail)
