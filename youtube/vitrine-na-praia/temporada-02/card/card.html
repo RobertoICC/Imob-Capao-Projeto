@@ -44,7 +44,7 @@
 
   /* Logo */
   .logo { position: absolute; left: 96px; top: 70px; display: flex; flex-direction: column; align-items: center; width: 560px; }
-  .logo svg { width: 250px; height: 110px; }
+  .logo svg { width: 270px; height: 125px; }
   .logo .name { font-weight: 800; font-size: 58px; letter-spacing: 1px; line-height: 1; margin-top: 6px; white-space: nowrap; }
   .logo .name b { color: var(--gold); font-weight: 800; }
   .logo .tag { font-weight: 600; font-size: 20px; letter-spacing: 6px; margin-top: 10px; color: #dfe6f2; }
@@ -112,16 +112,26 @@
   <div class="diag"></div>
 
   <div class="logo">
-    <!-- Recriação aproximada do logo (casa + onda + sol). Substituir pelo PNG original quando disponível. -->
-    <svg viewBox="0 0 250 110" aria-hidden="true">
-      <path d="M40 70 L105 22 L150 55" fill="none" stroke="#d4a94f" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
-      <rect x="92" y="48" width="9" height="9" fill="#d4a94f"/><rect x="103" y="48" width="9" height="9" fill="#d4a94f"/>
-      <rect x="92" y="59" width="9" height="9" fill="#d4a94f"/><rect x="103" y="59" width="9" height="9" fill="#d4a94f"/>
-      <path d="M140 62 A34 34 0 0 1 208 62" fill="none" stroke="#f3d488" stroke-width="9" stroke-linecap="round"/>
-      <path d="M20 86 C60 60 95 100 135 80 S200 60 232 74" fill="none" stroke="#3aa0e8" stroke-width="10" stroke-linecap="round"/>
-      <path d="M35 100 C75 80 110 112 150 94 S205 80 225 88" fill="none" stroke="#1f5fae" stroke-width="8" stroke-linecap="round"/>
-      <path d="M190 18 q7 -7 14 0 q7 -7 14 0" fill="none" stroke="#ffffff" stroke-width="3"/>
-      <path d="M212 34 q5 -5 10 0 q5 -5 10 0" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <!-- Logo do programa: casa + sol + ondas + gaivotas, nas cores da marca -->
+    <svg viewBox="0 0 260 120" aria-hidden="true">
+      <defs>
+        <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe29a"/><stop offset="1" stop-color="#e0a93e"/></linearGradient>
+        <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6d98f"/><stop offset="1" stop-color="#c8963c"/></linearGradient>
+        <linearGradient id="sea1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4fb6f0"/><stop offset="1" stop-color="#2a7fd0"/></linearGradient>
+        <linearGradient id="sea2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1d5aa8"/><stop offset="1" stop-color="#153f7c"/></linearGradient>
+      </defs>
+      <!-- sol nascendo atrás da casa -->
+      <path d="M150 78 A42 42 0 0 1 234 78 Z" fill="url(#sun)"/>
+      <!-- casa -->
+      <path d="M44 80 L112 26 L172 72" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M66 64 V80 M158 62 V80" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+      <g fill="url(#gold)"><rect x="100" y="50" width="10" height="10" rx="1"/><rect x="113" y="50" width="10" height="10" rx="1"/><rect x="100" y="63" width="10" height="10" rx="1"/><rect x="113" y="63" width="10" height="10" rx="1"/></g>
+      <!-- ondas -->
+      <path d="M18 92 C55 72 92 104 132 88 S205 70 244 84 L244 96 C205 84 170 104 132 100 S58 88 18 104 Z" fill="url(#sea1)"/>
+      <path d="M34 106 C70 92 104 116 142 104 S208 92 234 100 L234 108 C205 102 176 118 142 114 S74 104 34 114 Z" fill="url(#sea2)"/>
+      <!-- gaivotas -->
+      <path d="M196 20 q7 -7 14 0 q7 -7 14 0" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+      <path d="M220 38 q5 -5 10 0 q5 -5 10 0" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
     </svg>
     <div class="name">VITRINE <b>NA PRAIA</b></div>
     <div class="tag">IMÓVEIS NO LITORAL NORTE</div>

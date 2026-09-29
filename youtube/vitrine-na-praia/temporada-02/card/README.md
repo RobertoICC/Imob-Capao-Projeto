@@ -14,7 +14,7 @@ NODE_PATH=$(npm root -g) node render.js 02 "Edifício Milano" "Centro · Capão 
 ```
 Para o MP4 de 5 s, use o mesmo comando `ffmpeg` do commit que criou o card do EP01 (zoompan + fade).
 
-## Pontos para melhorar
-- O **logo** é uma recriação aproximada (casa + onda + sol). Trocar pelo PNG original com fundo transparente, se houver
-- A **foto do Roberto** foi tirada do card da T1 (baixa resolução). Uma foto original em alta deixa o círculo mais nítido
+## Identidade
+- **Logo:** versão vetorial própria do card (casa + sol + ondas + gaivotas), aprovada pelo Roberto para a T2
+- **Foto do Roberto:** a mesma do card da T1, tratada (média de quadros + nitidez) em `assets/roberto.jpg`
 - Nunca usar foto com o número do apartamento, placa de andar ou painel do elevador
