@@ -69,7 +69,8 @@
 - **Balcão americano:** *(bancada em granito preto com banquetas, pendentes dourados, painel ripado de madeira)* "Balcão americano com banquetas: o café da manhã já tem lugar."
 - **Cozinha e churrasqueira:** *(planejados em grafite com detalhes em madeira, bancada de granito preto, cooktop, forno embutido, geladeira inox, churrasqueira com revestimento em pedra)* "Cozinha toda planejada, eletros inclusos e churrasqueira integrada. O churrasco de domingo acontece aqui mesmo, junto com a família."
 - **Área de serviço:** *(máquina de lavar)* "E área de serviço separada, com máquina."
-- **Sacada:** *(janelas amplas do piso ao teto, guarda-corpo de vidro, spots embutidos, piso claro)* "A sala abre inteira para a sacada. Entra sol o dia todo, e o piso claro em porcelanato polido deixa tudo ainda mais iluminado."
+- **Sacada corrida:** *(esquadria de correr do piso ao teto que abre a sala inteira, sacada que acompanha toda a fachada do living, guarda-corpo de vidro, forro com spots embutidos, vista para a rua arborizada do Navegantes)* "A sala abre inteira para a sacada, que acompanha toda a extensão do living. Entra sol o dia todo, e com a esquadria aberta sala e sacada viram um ambiente só."
+  *Gravar: plano começando dentro da sala e saindo para a sacada, e depois um plano ao longo da sacada mostrando a extensão.*
 - **Circulação:** *(quadro grande de cachoeira no corredor)* tomada de passagem
 - **Suíte:** *(cabeceira com LED, roupa de cama em verde-musgo, armário com porta espelhada, ar split, TV em painel)* "A suíte tem cabeceira com iluminação indireta, armário espelhado e ar-condicionado."
 - **Demais dormitórios:** *(um com duas camas de solteiro; outro de casal com piso amadeirado)* "E os outros dois dormitórios servem para os filhos, para hóspedes ou para um home office. Todos climatizados."
