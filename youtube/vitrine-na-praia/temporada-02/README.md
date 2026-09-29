@@ -15,6 +15,14 @@ Isso cobre os dois públicos da imobiliária:
 | Alto padrão | Exclusividade, acabamento, localização, condomínio fechado | Tour detalhado, detalhes de acabamento, vista, estrutura do condomínio |
 | Giro rápido / investidor | Liquidez, pronto para rentabilizar, preço de oportunidade | Bloco "Números do Imóvel": aluguel de temporada estimado, condomínio, IPTU, distância do mar |
 
+## Regras de divulgação (valem para todo episódio e post)
+
+- **Nunca** citar o nome do proprietário, da construtora vendedora ou do contato responsável
+- **Nunca** mencionar comissão nem valores "mais comissão". O valor divulgado é o valor de venda
+- **Nunca** mostrar o número do apartamento (nem o número do box). Usar "andar alto" em vez do andar exato
+- **Nunca** mencionar quem está com as chaves ou outras imobiliárias
+- Dados internos da captação ficam fora do repositório e das redes
+
 ## Estrutura fixa de cada episódio (8 a 12 min)
 
 1. **Gancho (0:00–0:15)**: a melhor imagem do imóvel e uma frase de impacto
@@ -37,4 +45,4 @@ Isso cobre os dois públicos da imobiliária:
 
 | EP | Imóvel | Status |
 |---|---|---|
-| 01 | *(a definir)* | Em pré-produção. Ver `ep01/` |
+| 01 | Edifício Absoluto Palace, apto. 3 dormitórios, Navegantes | Em pré-produção. Ver `ep01/` |

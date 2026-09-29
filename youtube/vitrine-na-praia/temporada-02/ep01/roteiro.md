@@ -1,76 +1,94 @@
-# Vitrine na Praia — T2 EP01 | Roteiro de gravação
+# Vitrine na Praia, T2 EP01 | Edifício Absoluto Palace, Navegantes
 
-> Campos entre `[colchetes]` devem ser preenchidos com os dados do imóvel escolhido.
-> Duração alvo: 9 a 11 minutos.
+> Roteiro de gravação. Duração alvo: 10 a 12 minutos.
+> Campos marcados **[confirmar]** ainda precisam ser checados antes de gravar.
+> Siga as **regras de divulgação** do `README.md` da temporada: sem nome de proprietário ou contato, sem comissão, sem número do apartamento.
 
-## Ficha do imóvel (preencher antes de gravar)
+## Ficha do imóvel (dados públicos)
 
 | Campo | Valor |
 |---|---|
-| Código | [CÓD.] |
-| Tipo | [Apartamento / Casa / Casa em condomínio] |
-| Bairro / condomínio | [ ] |
-| Distância do mar | [X quadras / X metros] |
-| Área privativa | [X m²] |
-| Dormitórios / suítes | [X / X] |
-| Vagas | [X] |
-| Mobiliado? | [Sim, finamente mobiliado e decorado / Não] |
-| Diferenciais | [churrasqueira, vista mar, piscina, porcelanato, rebaixo em gesso…] |
-| Condomínio / IPTU | [R$ / R$] |
-| Estimativa de temporada | [R$ por diária em alta temporada, se aplicável] |
-| Valor | [R$ ou "consulte"] |
-| Perfil | [Morar / Veranear / Investir] |
+| Tipo | Apartamento de altíssimo padrão |
+| Edifício | Absoluto Palace |
+| Endereço | Rua Marabá, Bairro Navegantes, Capão da Canoa/RS |
+| Posição | Andar alto |
+| Área privativa | 96 m² |
+| Dormitórios | 3, sendo 1 suíte |
+| Banheiros | Suíte + banheiro social + lavabo |
+| Vaga | Box duplo |
+| Estado | Mobiliado, decorado e totalmente climatizado |
+| Acabamento | Alto padrão |
+| Distância do mar | [confirmar] |
+| Condomínio / IPTU | [confirmar] |
+| Valor | R$ 1.990.000,00. Estuda propostas |
+| Perfil | Morar o ano todo, veranear com a família ou investir |
+
+**Estrutura do edifício:** rooftop com vista panorâmica, piscina interna aquecida, piscina externa, spa e hidromassagem, solarium, academia equipada, espaço gourmet, salão de festas, sala de jogos, sala gamer, hall mobiliado e decorado, 2 elevadores, zeladoria e sistema de segurança.
 
 ---
 
 ## 1. Gancho, 0:00–0:15
-*Imagem: drone ou a vista mais bonita do imóvel. Corte rápido.*
+*Imagem: vista panorâmica do rooftop ou da sacada. Corte rápido para a piscina aquecida.*
 
-> "Começou a 2ª temporada do Vitrine na Praia, e a gente abre com [um apartamento a (X) quadras do mar / uma casa em condomínio fechado] que [está pronta para morar e já pode render no próximo verão]."
+> "Piscina aquecida, spa, rooftop com vista para Capão inteira e um apartamento de três dormitórios pronto para entrar. A 2ª temporada do Vitrine na Praia começa nas alturas."
 
 ## 2. Vinheta, 0:15–0:22
 *Vinheta "Vitrine na Praia" + selo "2ª Temporada".*
 
 ## 3. Apresentação da temporada, 0:22–0:55
-*Apresentador em frente ao imóvel ou com o mar ao fundo.*
+*Apresentador na frente do Edifício Absoluto Palace.*
 
-> "Olá! Eu sou [nome], da Imobiliária Capão da Canoa. Há 17 anos a gente ajuda famílias e investidores a encontrar o imóvel certo aqui no litoral.
-> Nesta temporada, além de mostrar os imóveis, vou mostrar os números de cada um: quanto custa manter, quanto pode render e se ele serve para morar, veranear ou investir.
-> Hoje estamos em [bairro/condomínio], em Capão da Canoa. Bora conhecer?"
+> "Olá! Eu sou [nome do apresentador], da Imobiliária Capão da Canoa. Há 17 anos a gente ajuda famílias e investidores a encontrar o imóvel certo aqui no litoral.
+> Nesta temporada, além de mostrar os imóveis, vou mostrar os números de cada um e para quem ele é ideal: morar, veranear ou investir.
+> E a gente estreia aqui no Bairro Navegantes, no Edifício Absoluto Palace. Bora subir?"
 
 ## 4. Chegada e localização, 0:55–1:45
-*Imagens da rua, fachada, caminho até a praia (se possível, cronometrado a pé).*
+*Fachada, rua, entorno do Navegantes, caminho até a praia.*
 
-> "Olha só: daqui até a areia são [X] minutos a pé. Por perto você tem [mercado, padaria, farmácia, restaurantes], então no verão dá para resolver tudo sem pegar o carro."
+> "Estamos na Rua Marabá, no Navegantes, um dos bairros mais procurados de Capão da Canoa. Daqui até a praia são [confirmar: X minutos a pé]. E você tem [confirmar: mercado, padaria, restaurantes] aqui pertinho."
 
-## 5. Tour pelo imóvel, 1:45–7:00
-*Câmera em movimento suave. Parar 3 a 5 segundos em cada detalhe de acabamento.*
+## 5. Hall e estrutura do edifício, 1:45–4:30
+*Começar pelo hall e terminar no rooftop, que é a melhor imagem.*
 
-- **Entrada / sala:** "[Ambientes integrados, iluminação natural, piso em porcelanato…]"
-- **Cozinha:** "[Móveis planejados, eletros inclusos…]"
-- **Dormitórios:** "[Suíte com…, armários…]"
-- **Banheiros:** acabamento
-- **Área externa / sacada / churrasqueira:** "Aqui é onde a família vai passar o verão."
-- **Condomínio (se houver):** portaria, segurança, lazer
+- **Hall de entrada:** "Já na chegada você vê o padrão: hall mobiliado e decorado, dois elevadores, zeladoria e sistema de segurança."
+- **Piscina interna aquecida + spa e hidromassagem:** "Isso aqui é o que faz a diferença para quem quer usar o apartamento o ano inteiro, não só no verão. Inverno no litoral com piscina aquecida é outra história."
+- **Academia, sala de jogos, sala gamer:** "Tem espaço para todo mundo da família: academia equipada, sala de jogos e até sala gamer para a criançada."
+- **Espaço gourmet e salão de festas:** "Aniversário, encontro de família, tudo sem sair do prédio."
+- **Rooftop, piscina externa e solarium:** *(pausa longa, câmera girando devagar)* "E aqui em cima… olha essa vista. Rooftop com vista panorâmica, piscina externa e solarium. É por isso que o slogan do prédio é 'sofisticação nas alturas'."
 
-> Dica: fale sempre do **uso** do espaço ("aqui cabe a família toda no churrasco"), e não só da metragem.
+## 6. Tour pelo apartamento, 4:30–8:30
+*Câmera em movimento suave. Parar 3 a 5 segundos em cada detalhe de acabamento. **Não filmar a porta com o número do apartamento nem placas de andar.***
 
-## 6. Números do Imóvel, 7:00–8:30 (quadro novo da temporada)
-*Tela com a ficha técnica em lettering. Apresentador narra.*
+- **Entrada / living:** "São 96 metros quadrados privativos, e o apartamento já está mobiliado, decorado e totalmente climatizado. É só trazer a mala."
+- **Lavabo:** "Lavabo para as visitas, detalhe que faz falta em muito apartamento de praia."
+- **Cozinha:** "[descrever móveis e eletros que aparecem]"
+- **Sacada / vista:** "[descrever a vista, o sol e a churrasqueira, se houver]"
+- **Dormitórios:** "Três dormitórios. Esse aqui é a suíte [descrever]. E os outros dois servem para os filhos, para hóspedes ou para um home office."
+- **Banheiro social:** acabamento
+- **Garagem:** "E lá embaixo tem box duplo, para dois carros. No verão, em Capão, isso vale ouro."
+
+> Dica: fale do **uso** do espaço ("aqui cabe a família toda no verão"), e não só da metragem.
+
+## 7. Números do Imóvel, 8:30–9:45 (quadro novo da temporada)
+*Tela com a ficha em lettering. Apresentador narra.*
 
 > "Agora, os números:
-> • [X] dormitórios, [X] m², [X] vaga(s)
-> • Condomínio de R$ [ ] e IPTU de R$ [ ]
-> • [Se investimento:] Na alta temporada, um imóvel com esse perfil aluga em média por R$ [ ] a diária.
-> Para mim, esse imóvel é ideal para quem quer [morar / veranear / investir]."
+> • 96 m² privativos
+> • 3 dormitórios, sendo 1 suíte, mais banheiro social e lavabo
+> • Box duplo
+> • Mobiliado, decorado e climatizado
+> • Condomínio de R$ [confirmar] e IPTU de R$ [confirmar]
+> • Valor: R$ 1.990.000,00, e o proprietário estuda propostas.
+>
+> Para mim, esse apartamento é ideal para quem quer morar no litoral o ano inteiro com estrutura de clube, ou para a família que quer o melhor da praia sem se preocupar com nada. Pronto para entrar."
 
-## 7. Selo de Confiança, 8:30–9:00
+## 8. Selo de Confiança, 9:45–10:15
 
 > "E aqui tem um detalhe que faz diferença: todo imóvel que a gente apresenta passa por análise jurídica prévia. Você negocia com transparência e sem surpresa. Confiança e honestidade você encontra aqui."
 
-## 8. Chamada final, 9:00–fim
+## 9. Chamada final, 10:15–fim
 
-> "Gostou? Chama a gente no WhatsApp **51 98421-1346** e pede a ficha completa do código [CÓD.]. A gente atende de domingo a domingo, presencialmente na Rua Sepé, 2222, Loja 06, no Centro de Capão da Canoa, ou on-line, em português, espanhol ou inglês.
+> "Gostou do Absoluto Palace? Chama a gente no WhatsApp **51 98421-1346** e pede a ficha completa e o agendamento da sua visita. A gente atende de domingo a domingo, presencialmente na Rua Sepé, 2222, Loja 06, no Centro de Capão da Canoa, ou on-line, em português, espanhol ou inglês.
 > Se inscreve no canal e ativa o sininho, porque no próximo episódio eu vou te mostrar [prévia do EP02]. Até lá!"
 
 *Tela final (últimos 20 s): botão de inscrição + vídeo sugerido + playlist da temporada.*
