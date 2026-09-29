@@ -7,7 +7,70 @@
 **Temporada anterior:** ver `../temporada-01/README.md` (8 episódios, final no Premium Residence)
 **Praça:** Capão da Canoa e Xangri-Lá (litoral gaúcho)
 
-## Proposta da temporada
+## Conceito: 90 dias para transformar visualizações em visitas e vendas
+
+- **Temporada 1:** apresentar imóveis e construir audiência
+- **Temporada 2:** usar a audiência para gerar compradores e negócios
+
+A métrica que vale mais que todas: **💰 vendas geradas pelo Vitrine na Praia.**
+
+### As 3 categorias de imóvel
+
+| Categoria | Pergunta | Que imóveis entram | Objetivo do episódio | Peso na temporada |
+|---|---|---|---|---|
+| 🔴 **Prioritário** | "Quero vender" | Proprietário motivado, preço competitivo, negociação real, imóvel diferenciado, alto padrão, maior valor, estratégico para a marca | Lead qualificado → visita → proposta | 40% |
+| 🟡 **Giro** | "Quero gerar negócios" | Apartamentos, casas, terrenos, segunda residência, perto da praia, boa relação preço/localização | Volume de compradores (conteúdo comparativo: "o que R$ 600 mil compra em Capão?") | 40% |
+| 🟢 **Entrada** | "Quero trazer compradores" | Terrenos, apartamentos menores, imóveis acessíveis, oportunidades | Trazer gente nova para o relacionamento. O comprador entra por ele e pode comprar outro | 20% |
+
+> A classificação usa critérios internos (inclusive comissão e situação do proprietário). Esses critérios ficam **fora** do vídeo, da descrição e deste repositório: aqui só aparece a categoria. Ver `inventario.md`.
+
+### Cada episódio tem uma missão
+
+O episódio nunca termina com "espero que tenham gostado". Termina com **uma** ação comercial:
+
+| Missão | CTA base |
+|---|---|
+| **M1: Gerar WhatsApp** | "Se você quer receber o vídeo completo e o valor desse imóvel, me chama no WhatsApp." |
+| **M2: Gerar visitas** | "Se você está procurando um imóvel assim, me chama e vamos agendar uma visita." |
+| **M3: Gerar proposta** | "Esse imóvel está aberto a negociação. Se quiser saber até onde podemos chegar, fale comigo." |
+| **M4: Descobrir o perfil** | "Me diga nos comentários: você compraria para morar, investir ou passar o verão?" |
+| **M5: Captar clientes** | "Está procurando imóvel no litoral? Me chama. Vou encontrar opções dentro do seu orçamento." |
+
+### Funil
+
+```
+Episódio (YouTube) + Shorts/Reels
+        ↓
+   Interessado → WhatsApp → Qualificação
+        ↓
+🔴 Prioritário / 🟡 Giro → Visita → Proposta → 💰 Venda
+🟢 Entrada → Lead → Qualificação → outros imóveis do inventário → 💰
+```
+
+### Cadência (a confirmar)
+
+90 episódios longos em 90 dias = 1 por dia, cada um com gravação, narração e edição de 8 a 12 min. Na T1 a média foi de 2 por semana. **Recomendação:** 2 a 3 episódios longos por semana (≈ 26 a 39 na temporada), mantendo a divisão 40/40/20, e **Shorts/Reels todos os dias** (meta de 180+) tirados de cada episódio. Assim os 90 dias ficam cheios sem precisar de 90 imóveis.
+
+### Cada episódio vira vários conteúdos
+
+1 episódio → 5 a 10 Shorts → Stories → 1 Reel → 1 post → 1 mensagem de WhatsApp para a lista.
+
+### Placar dos 90 dias
+
+| Indicador | Meta | Semana a semana |
+|---|---:|---|
+| 💰 **Vendas geradas pelo Vitrine** | medir | |
+| Propostas | medir | |
+| Visitas | medir | |
+| Compradores qualificados | medir | |
+| Conversas no WhatsApp | medir | |
+| Leads | medir | |
+| Shorts/Reels publicados | 180+ | |
+| Episódios publicados | a confirmar | |
+
+> Para medir de verdade: perguntar em toda conversa nova no WhatsApp "como você nos encontrou?" e anotar o episódio de origem.
+
+## Formato de cada episódio
 
 Na 1ª temporada o programa mostrou imóveis. Na 2ª, cada episódio mostra o imóvel **e responde à pergunta que o comprador faz antes de fechar negócio**: quanto rende, quanto custa manter, é seguro comprar, vale a pena para morar o ano todo.
 
@@ -35,7 +98,7 @@ Isso cobre os dois públicos da imobiliária:
 5. **Tour pelo imóvel (1:40–7:00)**: sala → cozinha → quartos → área externa / terraço
 6. **Números do Imóvel (7:00–8:30)**: ficha técnica e perfil (morar, veranear, investir)
 7. **Selo de Confiança (8:30–9:00)**: análise jurídica prévia e documentação em ordem
-8. **Chamada final (9:00–fim)**: WhatsApp, endereço, inscrição no canal e prévia do próximo episódio
+8. **Missão + chamada final (9:00–fim)**: a ação comercial da missão do episódio, WhatsApp, inscrição no canal e prévia do próximo episódio
 
 ## Padrões visuais e de nome
 
@@ -55,7 +118,7 @@ Isso cobre os dois públicos da imobiliária:
 
 ## Episódios
 
-| EP | Imóvel | Status |
-|---|---|---|
-| 01 | Edifício Absoluto Palace, apto. 3 dormitórios, Navegantes | Confirmado como estreia. Em pré-produção. Ver `ep01/` |
-| 02 | *Candidato:* Edifício Milano, terraço em L com espera para spa (pendência da T1) | A definir |
+| EP | Imóvel | Categoria | Missão | Status |
+|---|---|---|---|---|
+| 01 | Edifício Absoluto Palace, 3 dormitórios, Navegantes | 🔴 Prioritário | M3: Gerar proposta (+ M1) | Confirmado como estreia. Em pré-produção. Ver `ep01/` |
+| 02 | *A definir pelo Roberto* | | | Aguardando |

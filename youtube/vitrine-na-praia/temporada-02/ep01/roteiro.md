@@ -1,6 +1,7 @@
 # Vitrine na Praia, T2 EP01 | Edifício Absoluto Palace, Navegantes
 
 > Roteiro de gravação. Duração alvo: 10 a 12 minutos.
+> **Categoria:** 🔴 Prioritário · **Missão:** M3, gerar proposta (o imóvel "estuda propostas"), com M1 (WhatsApp) de apoio.
 > Siga as **regras de divulgação** do `README.md` da temporada: sem nome de proprietário ou contato, sem comissão, sem número do apartamento.
 
 ## Ficha do imóvel (dados públicos)
@@ -103,8 +104,8 @@
 
 ## 9. Chamada final, 10:15–fim
 
-> "Gostou do Absoluto Palace? Chama a gente no WhatsApp **51 98421-1346** e pede a ficha completa e o agendamento da sua visita. A gente atende de domingo a domingo, presencialmente na Rua Sepé, 2222, Loja 06, no Centro de Capão da Canoa, ou on-line, em português, espanhol ou inglês.
+> "Esse apartamento está aberto a negociação. Se você quer saber até onde a gente pode chegar, fala comigo no WhatsApp **51 98421-1346**. Eu te mando a ficha completa e a gente já agenda a sua visita. A gente atende de domingo a domingo, presencialmente na Rua Sepé, 2222, Loja 06, no Centro de Capão da Canoa, ou on-line, em português, espanhol ou inglês.
 > Lembra: do episódio à visita, a gente te ajuda a encontrar o seu imóvel ideal em até 30 dias.
-> Se inscreve no canal e ativa o sininho, porque no próximo episódio eu vou te mostrar [prévia do EP02; candidato: um apartamento com terraço em L e espera para spa]. Até lá!"
+> Se inscreve no canal e ativa o sininho, porque no próximo episódio eu vou te mostrar [prévia do EP02]. Até lá!"
 
 *Tela final (últimos 20 s): botão de inscrição + vídeo sugerido + playlist da temporada.*

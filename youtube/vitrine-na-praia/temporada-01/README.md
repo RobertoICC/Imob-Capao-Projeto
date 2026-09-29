@@ -33,6 +33,6 @@ Resumo para dar continuidade na 2ª temporada. Os números dos apartamentos fica
 ## Pendências herdadas
 
 - [ ] Cenas horizontais extras no Premium Residence (fachada + infraestrutura)
-- [ ] Apartamento do Milano com terraço em L e espera para spa (box duplo, R$ 1.790.000): ficou fora da T1, candidato a EP02 da T2
+- [ ] Apartamento do Milano com terraço em L e espera para spa: em espera (sem vídeo por enquanto)
 - [ ] Decidir o novo card/vinheta de abertura da T2
 - [ ] Registro da marca no INPI (pré-requisito para licenciar ou vender o canal)

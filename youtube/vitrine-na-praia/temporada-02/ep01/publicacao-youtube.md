@@ -36,7 +36,7 @@ Nesta temporada, além do tour completo, mostramos os NÚMEROS de cada imóvel e
 • Hall mobiliado e decorado, 2 elevadores
 • Zeladoria e sistema de segurança
 
-💰 R$ 1.990.000,00. Estuda propostas.
+💰 R$ 1.990.000,00. Aberto a negociação: fale comigo e descubra até onde podemos chegar.
 
 ⏱️ Capítulos
 00:00 Estreia da 2ª Temporada
@@ -92,7 +92,7 @@ vitrine na praia, absoluto palace capão da canoa, apartamento alto padrão cap�
   ```
   🎬 Começou a Temporada 2 do Vitrine na Praia!
   Piscina aquecida ou hidromassagem no rooftop: qual você usaria mais? 👇
-  Quer a ficha completa do Absoluto Palace? Chama no WhatsApp 51 98421-1346.
+  Este imóvel está aberto a negociação. Quer saber até onde podemos chegar? WhatsApp 51 98421-1346.
   ```
 
 ## Texto para Instagram / Facebook / WhatsApp
