@@ -1,7 +1,7 @@
 # T2 EP01 | Checklist de gravação: Edifício Absoluto Palace
 
 ## Antes
-- [ ] Confirmar valor do condomínio e IPTU (campos [confirmar] do `roteiro.md`)
+- [ ] Ter à mão, se possível, condomínio e IPTU para responder no WhatsApp (não entram no vídeo)
 - [ ] Retirar as chaves e combinar horário de acesso às áreas comuns com a zeladoria
 - [ ] Autorização para gravar e divulgar o apartamento e as áreas comuns
 - [ ] Piscinas, spa e rooftop limpos e sem moradores no enquadramento

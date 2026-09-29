@@ -1,7 +1,6 @@
 # Vitrine na Praia, T2 EP01 | Edifício Absoluto Palace, Navegantes
 
 > Roteiro de gravação. Duração alvo: 10 a 12 minutos.
-> Campos marcados **[confirmar]** ainda precisam ser checados antes de gravar.
 > Siga as **regras de divulgação** do `README.md` da temporada: sem nome de proprietário ou contato, sem comissão, sem número do apartamento.
 
 ## Ficha do imóvel (dados públicos)
@@ -19,7 +18,7 @@
 | Estado | Mobiliado, decorado e totalmente climatizado |
 | Acabamento | Alto padrão |
 | Distância do mar | 4 quadras |
-| Condomínio / IPTU | [confirmar] |
+| Condomínio / IPTU | Não divulgados no vídeo. Informar no atendimento, quando disponíveis |
 | Valor | R$ 1.990.000,00. Estuda propostas |
 | Perfil | Morar o ano todo, veranear com a família ou investir |
 
@@ -45,7 +44,8 @@
 ## 4. Chegada e localização, 0:55–1:45
 *Fachada, rua, entorno do Navegantes, caminho até a praia.*
 
-> "Estamos na Rua Marabá, no Navegantes, um dos bairros mais procurados de Capão da Canoa. Daqui até a praia são só 4 quadras: dá para ir a pé, com a cadeira e o guarda-sol, sem se preocupar com carro nem estacionamento. E você tem [confirmar: mercado, padaria, restaurantes] aqui pertinho."
+> "Estamos na Rua Marabá, no Navegantes, um dos bairros mais procurados de Capão da Canoa. Daqui até a praia são só 4 quadras: dá para ir a pé, com a cadeira e o guarda-sol, sem se preocupar com carro nem estacionamento. E aqui pertinho você tem tudo: supermercado Asun, padaria e bons restaurantes. No verão dá para resolver a vida sem tirar o carro da garagem."
+*Gravar: fachada do Asun, da padaria e de um restaurante no caminho até a praia (sem destacar marcas além do mercado).*
 *Gravar: o caminho das 4 quadras até a areia em timelapse ou hyperlapse, terminando no mar.*
 
 ## 5. Hall e estrutura do edifício, 1:45–4:30
@@ -78,7 +78,7 @@
 - **Dormitório de solteiro:** *(duas camas de solteiro, cabeceira contínua em madeira com LED, papel de parede texturizado, armário de correr com espelho, TV, ar split, piso vinílico amadeirado)* "Esse é o quarto das crianças ou dos hóspedes: duas camas, cabeceira em madeira com iluminação indireta, armário com espelho, TV e ar-condicionado."
 - **Terceiro dormitório (casal):** *(cama de casal com manta terracota, cabeceira estofada com LED, roupeiro alto, criado-mudo, TV, ar split)* "E o terceiro dormitório também é de casal, com roupeiro alto, TV e ar. Serve para receber a família toda no verão."
   > "Repara que todos os quartos seguem o mesmo padrão: cabeceira com LED, ar-condicionado, TV e piso amadeirado. Nenhum quarto foi deixado de lado."
-- **Banheiro social:** acabamento
+- **Banheiro social:** *(bancada em mármore bege com cuba de apoio e gabinete suspenso, espelho amplo com nichos em marcenaria, box de vidro do piso ao teto, barra de apoio, revestimento claro)* "O banheiro segue o mesmo padrão do lavabo: bancada em mármore, cuba de apoio, nichos planejados e box de vidro inteiro."
 - **Garagem:** "E lá embaixo tem box duplo, para dois carros. No verão, em Capão, isso vale ouro."
 
 > Dica: fale do **uso** do espaço ("aqui cabe a família toda no verão"), e não só da metragem.
@@ -92,7 +92,6 @@
 > • 3 dormitórios, sendo 1 suíte, mais banheiro social e lavabo
 > • Box duplo
 > • Mobiliado, decorado e climatizado
-> • Condomínio de R$ [confirmar] e IPTU de R$ [confirmar]
 > • Valor: R$ 1.990.000,00, e o proprietário estuda propostas.
 >
 > Para mim, esse apartamento é ideal para quem quer morar no litoral o ano inteiro com estrutura de clube, ou para a família que quer o melhor da praia sem se preocupar com nada. Pronto para entrar."
