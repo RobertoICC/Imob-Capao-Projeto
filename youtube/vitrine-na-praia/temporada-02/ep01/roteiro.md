@@ -28,9 +28,9 @@
 ---
 
 ## 1. Gancho, 0:00–0:15
-*Imagem: vista panorâmica do rooftop ou da sacada. Corte rápido para a piscina aquecida.*
+*Imagem: drone da praia lotada de Capão → corte para a hidromassagem com deck de madeira no rooftop, com o mar ao fundo.*
 
-> "Piscina aquecida, spa, rooftop com vista para Capão inteira e um apartamento de três dormitórios pronto para entrar. A 2ª temporada do Vitrine na Praia começa nas alturas."
+> "Hidromassagem no rooftop olhando para o mar, piscina aquecida e um apartamento de três dormitórios pronto para entrar. A 2ª temporada do Vitrine na Praia começa nas alturas."
 
 ## 2. Vinheta, 0:15–0:22
 *Vinheta "Vitrine na Praia" + selo "2ª Temporada".*
@@ -52,18 +52,27 @@
 
 - **Hall de entrada:** "Já na chegada você vê o padrão: hall mobiliado e decorado, dois elevadores, zeladoria e sistema de segurança."
 - **Piscina interna aquecida + spa e hidromassagem:** "Isso aqui é o que faz a diferença para quem quer usar o apartamento o ano inteiro, não só no verão. Inverno no litoral com piscina aquecida é outra história."
-- **Academia, sala de jogos, sala gamer:** "Tem espaço para todo mundo da família: academia equipada, sala de jogos e até sala gamer para a criançada."
-- **Espaço gourmet e salão de festas:** "Aniversário, encontro de família, tudo sem sair do prédio."
-- **Rooftop, piscina externa e solarium:** *(pausa longa, câmera girando devagar)* "E aqui em cima… olha essa vista. Rooftop com vista panorâmica, piscina externa e solarium. É por isso que o slogan do prédio é 'sofisticação nas alturas'."
+- **Academia (com vista para o mar):** "Olha a vista da academia: dá para treinar olhando o mar."
+- **Sala gamer e sala de jogos:** "E tem espaço para a gurizada também: sala gamer completa e sala de jogos."
+- **Espaço gourmet e salão de festas:** *(mesas redondas, bancada, piso de mármore e janelas do chão ao teto com vista para o mar)* "Aniversário, encontro de família, tudo sem sair do prédio, e com essa vista."
+- **Lounge com cadeiras suspensas:** tomada rápida e charmosa
+- **Rooftop, hidromassagem, piscina externa e solarium:** *(pausa longa, câmera girando devagar até o mar)* "E aqui em cima… olha essa vista. Hidromassagem com deck de madeira de frente para o mar, piscina externa e solarium. É por isso que o slogan do prédio é 'sofisticação nas alturas'."
 
 ## 6. Tour pelo apartamento, 4:30–8:30
 *Câmera em movimento suave. Parar 3 a 5 segundos em cada detalhe de acabamento. **Não filmar a porta com o número do apartamento nem placas de andar.***
 
-- **Entrada / living:** "São 96 metros quadrados privativos, e o apartamento já está mobiliado, decorado e totalmente climatizado. É só trazer a mala."
+- **Living integrado:** *(sofá rosé com almofadas verdes, painel ripado de madeira, lustre dourado em espiral, perfis de LED no forro de gesso, ar split)* "São 96 metros quadrados privativos, e o apartamento já está mobiliado, decorado e totalmente climatizado. Repara na iluminação: LED embutido no gesso e esse lustre, que é uma peça de design. É só trazer a mala."
+- **Hall de entrada do apartamento:** *(aparador suspenso com parede espelhada e vasos com borda dourada)* "Logo na entrada, aparador suspenso e parede espelhada, que amplia o ambiente."
+- **Mesa de jantar:** *(mesa de madeira para 8 lugares com cadeiras em tecido claro, espelho com recorte geométrico e moldura em LED dourado)* "Mesa para oito pessoas, integrada com a sala e a cozinha. Olha o detalhe desse espelho com iluminação."
+- **Painel da TV:** *(painel com fita de LED dourada e prateleiras de vidro, rack suspenso, puffs)* tomada de detalhe
 - **Lavabo:** "Lavabo para as visitas, detalhe que faz falta em muito apartamento de praia."
-- **Cozinha:** "[descrever móveis e eletros que aparecem]"
-- **Sacada / vista:** "[descrever a vista, o sol e a churrasqueira, se houver]"
-- **Dormitórios:** "Três dormitórios. Esse aqui é a suíte [descrever]. E os outros dois servem para os filhos, para hóspedes ou para um home office."
+- **Balcão americano:** *(bancada em granito preto com banquetas, pendentes dourados, painel ripado de madeira)* "Balcão americano com banquetas: o café da manhã já tem lugar."
+- **Cozinha e churrasqueira:** *(planejados em grafite com detalhes em madeira, bancada de granito preto, cooktop, forno embutido, geladeira inox, churrasqueira com revestimento em pedra)* "Cozinha toda planejada, eletros inclusos e churrasqueira integrada. O churrasco de domingo acontece aqui mesmo, junto com a família."
+- **Área de serviço:** *(máquina de lavar)* "E área de serviço separada, com máquina."
+- **Sacada:** *(janelas amplas do piso ao teto, guarda-corpo de vidro, spots embutidos, piso claro)* "A sala abre inteira para a sacada. Entra sol o dia todo, e o piso claro em porcelanato polido deixa tudo ainda mais iluminado."
+- **Circulação:** *(quadro grande de cachoeira no corredor)* tomada de passagem
+- **Suíte:** *(cabeceira com LED, roupa de cama em verde-musgo, armário com porta espelhada, ar split, TV em painel)* "A suíte tem cabeceira com iluminação indireta, armário espelhado e ar-condicionado."
+- **Demais dormitórios:** *(um com duas camas de solteiro; outro de casal com piso amadeirado)* "E os outros dois dormitórios servem para os filhos, para hóspedes ou para um home office. Todos climatizados."
 - **Banheiro social:** acabamento
 - **Garagem:** "E lá embaixo tem box duplo, para dois carros. No verão, em Capão, isso vale ouro."
 

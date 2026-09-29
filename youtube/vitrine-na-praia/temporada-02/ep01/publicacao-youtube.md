@@ -65,7 +65,8 @@ vitrine na praia, absoluto palace capão da canoa, apartamento alto padrão cap�
 
 ## Thumbnail
 
-- Foto: o rooftop com a vista panorâmica ou a piscina interna aquecida
+- Foto: a hidromassagem do rooftop com o mar ao fundo (vídeo de stories, ~28 s) **ou** a foto ampla do living e jantar com o lustre dourado aceso (a mais forte das fotografias)
+- Alternativa para teste A/B de thumbnail: uma com a vista do rooftop e outra com o interior
 - Texto (máx. 4 palavras): **"SOFISTICAÇÃO NAS ALTURAS"** ou **"PISCINA AQUECIDA NA PRAIA"**
 - Selo no canto: **"T2 • EP01"**
 - Rosto do apresentador com expressão de surpresa diante da vista
