@@ -96,7 +96,8 @@
 > • Mobiliado, decorado e climatizado
 > • Valor: R$ 1.990.000,00, e o proprietário estuda propostas.
 >
-> Para mim, esse apartamento é ideal para quem quer morar no litoral o ano inteiro com estrutura de clube, ou para a família que quer o melhor da praia sem se preocupar com nada. Pronto para entrar."
+> Para mim, esse apartamento é ideal para quem quer morar no litoral o ano inteiro com estrutura de clube, ou para a família que quer o melhor da praia sem se preocupar com nada.
+> E tem um ponto importante: ele já está pronto. Você sabe exatamente o que está comprando, sem período de obra. Se a gente negociar bem o valor agora, é uma oportunidade concreta na mesa."
 
 ## 8. Selo de Confiança, 9:45–10:15
 

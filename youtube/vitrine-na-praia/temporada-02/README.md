@@ -38,6 +38,8 @@ O episódio nunca termina com "espero que tenham gostado". Termina com **uma** a
 
 ### Funil
 
+Argumentos para conduzir a conversa do WhatsApp até a proposta, e qual usar para cada tipo de imóvel: `argumentos-de-venda.md`.
+
 ```
 Episódio (YouTube) + Shorts/Reels
         ↓
