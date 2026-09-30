@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Tela final T2</title>
+<style>
+  @font-face { font-family: 'Oswald'; font-weight: 700; src: url(../card/fonts/Oswald-wght-700.woff2) format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 500; src: url(../card/fonts/Montserrat-wght-500.woff2) format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 600; src: url(../card/fonts/Montserrat-wght-600.woff2) format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 700; src: url(../card/fonts/Montserrat-wght-700.woff2) format('woff2'); }
+  @font-face { font-family: 'Montserrat'; font-weight: 800; src: url(../card/fonts/Montserrat-wght-800.woff2) format('woff2'); }
+  @font-face { font-family: 'Great Vibes'; font-weight: 400; src: url(../card/fonts/Great-Vibes.woff2) format('woff2'); }
+  :root { --navy: #0b1c36; --navy-2: #13294d; --gold: #d4a94f; --gold-light: #f3d488; --wa: #25d366; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: var(--navy); overflow: hidden; }
+  body { font-family: 'Montserrat', sans-serif; color: #fff; }
+  .frame { position: relative; overflow: hidden;
+    background: radial-gradient(110% 90% at 0% 0%, var(--navy-2) 0%, var(--navy) 62%); }
+  .frame::before { /* brilho dourado discreto */
+    content: ""; position: absolute; right: -300px; top: -300px; width: 900px; height: 900px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(212,169,79,.18), rgba(212,169,79,0) 65%); }
+
+  .logo { display: flex; align-items: center; gap: 16px; }
+  .logo svg { width: 118px; height: 55px; }
+  .logo .name { font-weight: 800; font-size: 32px; line-height: 1; white-space: nowrap; }
+  .logo .name b { color: var(--gold); font-weight: 800; }
+  .logo .tag { font-weight: 600; font-size: 12px; letter-spacing: 4px; color: #dfe6f2; margin-top: 6px; }
+
+  .pill { display: inline-block; padding: 10px 26px 8px 22px; background: linear-gradient(90deg, var(--gold-light), var(--gold));
+    color: var(--navy); font-family: 'Oswald', sans-serif; font-weight: 700; letter-spacing: 5px;
+    clip-path: polygon(0 0, 100% 0, 93% 100%, 0 100%); padding-right: 44px; }
+  .headline { font-family: 'Oswald', sans-serif; font-weight: 700; line-height: 1.02; text-shadow: 0 6px 24px rgba(0,0,0,.35); }
+  .headline span { color: var(--gold); }
+  .sub { font-weight: 600; color: #dfe6f2; line-height: 1.3; }
+  .wa { display: inline-flex; align-items: center; gap: 18px; background: var(--wa); color: #06351b;
+    border-radius: 18px; font-weight: 800; box-shadow: 0 14px 34px rgba(0,0,0,.35); }
+  .wa svg { flex: none; }
+  .comment { display: inline-flex; align-items: center; gap: 16px; background: #fff; color: var(--navy);
+    border-radius: 18px; font-weight: 800; box-shadow: 0 14px 34px rgba(0,0,0,.35); }
+  .who { font-weight: 600; color: #c9d3e3; }
+  .who b { color: #fff; font-weight: 700; }
+  .bar { position: absolute; left: 0; right: 0; bottom: 0; background: rgba(8,21,42,.96); border-top: 2px solid var(--gold);
+    display: flex; align-items: center; }
+  .bar .slogan { font-weight: 700; line-height: 1.35; }
+  .bar .slogan em { font-style: normal; color: var(--gold); }
+
+  /* ---------- 16:9 (tela final do YouTube, 20 s) ---------- */
+  .h .frame { width: 1920px; height: 1080px; }
+  .h .logo { position: absolute; left: 96px; top: 64px; }
+  .h .pill { position: absolute; left: 96px; top: 228px; font-size: 28px; }
+  .h .headline { position: absolute; left: 90px; top: 300px; width: 900px; font-size: 104px; }
+  .h .sub { position: absolute; left: 96px; top: 560px; width: 860px; font-size: 34px; }
+  .h .cta { position: absolute; left: 96px; top: 690px; }
+  .h .wa, .h .comment { padding: 20px 34px; font-size: 44px; }
+  .h .wa svg, .h .comment svg { width: 58px; height: 58px; }
+  .h .who { position: absolute; left: 100px; top: 822px; font-size: 24px; }
+  .h .bar { height: 110px; padding: 0 96px; }
+  .h .bar .slogan { font-size: 24px; }
+  /* Áreas reservadas para os elementos da tela final do YouTube */
+  .h .slot-video { position: absolute; left: 1060px; top: 150px; width: 760px; height: 428px;
+    border: 3px solid rgba(243,212,136,.75); border-radius: 14px; background: rgba(255,255,255,.04); }
+  .h .slot-sub { position: absolute; left: 1330px; top: 640px; width: 220px; height: 220px; border-radius: 50%;
+    border: 3px solid rgba(243,212,136,.75); background: rgba(255,255,255,.04); }
+  .h .label { position: absolute; font-family: 'Oswald', sans-serif; font-weight: 700; letter-spacing: 5px; color: var(--gold-light); font-size: 26px; }
+  .h .label.v { left: 1060px; top: 100px; }
+  .h .label.s { left: 1275px; top: 876px; width: 330px; text-align: center; }
+
+  /* ---------- 9:16 (final de Shorts/Reels, 4 s) ---------- */
+  .v .frame { width: 1080px; height: 1920px; }
+  .v .logo { position: absolute; left: 0; right: 0; top: 150px; justify-content: center; flex-direction: column; text-align: center; }
+  .v .logo svg { width: 200px; height: 94px; }
+  .v .logo .name { font-size: 58px; }
+  .v .logo .tag { font-size: 20px; letter-spacing: 6px; }
+  .v .pill { position: absolute; left: 50%; transform: translateX(-50%); top: 520px; font-size: 38px; white-space: nowrap; }
+  .v .headline { position: absolute; left: 70px; right: 70px; top: 620px; font-size: 128px; text-align: center; }
+  .v .sub { position: absolute; left: 90px; right: 90px; top: 1060px; font-size: 44px; text-align: center; }
+  .v .cta { position: absolute; left: 0; right: 0; top: 1260px; display: flex; justify-content: center; }
+  .v .wa, .v .comment { padding: 28px 42px; font-size: 56px; }
+  .v .wa svg, .v .comment svg { width: 72px; height: 72px; }
+  .v .who { position: absolute; left: 0; right: 0; top: 1440px; font-size: 32px; text-align: center; }
+  .v .bar { height: 200px; padding: 0 70px; justify-content: center; text-align: center; }
+  .v .bar .slogan { font-size: 34px; }
+  .v .slot-video, .v .slot-sub, .v .label { display: none; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="logo">
+    <svg viewBox="0 0 260 120" aria-hidden="true">
+      <defs>
+        <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe29a"/><stop offset="1" stop-color="#e0a93e"/></linearGradient>
+        <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6d98f"/><stop offset="1" stop-color="#c8963c"/></linearGradient>
+        <linearGradient id="sea1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4fb6f0"/><stop offset="1" stop-color="#2a7fd0"/></linearGradient>
+        <linearGradient id="sea2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1d5aa8"/><stop offset="1" stop-color="#153f7c"/></linearGradient>
+      </defs>
+      <path d="M150 78 A42 42 0 0 1 234 78 Z" fill="url(#sun)"/>
+      <path d="M44 80 L112 26 L172 72" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M66 64 V80 M158 62 V80" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+      <g fill="url(#gold)"><rect x="100" y="50" width="10" height="10" rx="1"/><rect x="113" y="50" width="10" height="10" rx="1"/><rect x="100" y="63" width="10" height="10" rx="1"/><rect x="113" y="63" width="10" height="10" rx="1"/></g>
+      <path d="M18 92 C55 72 92 104 132 88 S205 70 244 84 L244 96 C205 84 170 104 132 100 S58 88 18 104 Z" fill="url(#sea1)"/>
+      <path d="M34 106 C70 92 104 116 142 104 S208 92 234 100 L234 108 C205 102 176 118 142 114 S74 104 34 114 Z" fill="url(#sea2)"/>
+      <path d="M196 20 q7 -7 14 0 q7 -7 14 0" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+      <path d="M220 38 q5 -5 10 0 q5 -5 10 0" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    </svg>
+    <div><div class="name">VITRINE <b>NA PRAIA</b></div><div class="tag">IMÓVEIS NO LITORAL NORTE</div></div>
+  </div>
+
+  <div class="pill" id="pill"></div>
+  <div class="headline" id="headline"></div>
+  <div class="sub" id="sub"></div>
+  <div class="cta" id="cta"></div>
+  <div class="who">com <b>Roberto Carvalho Guedes</b> · Imobiliária Capão da Canoa</div>
+
+  <div class="label v">ASSISTA TAMBÉM</div><div class="slot-video"></div>
+  <div class="slot-sub"></div><div class="label s">INSCREVA-SE</div>
+
+  <div class="bar"><div class="slogan">DO EPISÓDIO À VISITA.<br><em>ENCONTRE SEU IMÓVEL IDEAL EM ATÉ 30 DIAS.</em></div></div>
+</div>
+<script>
+  const WA = '<svg viewBox="0 0 32 32"><path fill="#06351b" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.2c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.7 12.7-12.7S23 3 16 3zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.3 1.3-4-.3-.4c-1.1-1.7-1.7-3.6-1.7-5.6 0-5.8 4.7-10.5 10.6-10.5s10.6 4.7 10.6 10.5S21.8 26.1 16 26.1zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1c-.3-.2-1.3-.5-2.5-1.5-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.7 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>';
+  const CHAT = '<svg viewBox="0 0 32 32"><path fill="#0b1c36" d="M4 5h24a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H12l-6 5v-5H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm5 7a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/></svg>';
+  const NUM = '51 98421-1346';
+  const M = {
+    m1: { pill: 'VALOR + VÍDEO COMPLETO', headline: 'Quer o valor e o <span>vídeo completo</span>?', sub: 'Me chama no WhatsApp que eu te mando agora a ficha completa deste imóvel.', cta: 'wa' },
+    m2: { pill: 'AGENDE SUA VISITA', headline: 'Gostou? <span>Vem ver</span> pessoalmente.', sub: 'Me chama no WhatsApp e a gente marca a sua visita, presencial ou por vídeo.', cta: 'wa' },
+    m3: { pill: 'ABERTO A NEGOCIAÇÃO', headline: 'Até onde <span>podemos chegar</span>?', sub: 'Este imóvel está aberto a negociação. Fala comigo e descubra.', cta: 'wa' },
+    m4: { pill: 'SUA OPINIÃO', headline: 'Morar, investir ou <span>veranear</span>?', sub: 'Me conta nos comentários para que você compraria este imóvel.', cta: 'comment' },
+    m5: { pill: 'PROCURANDO IMÓVEL?', headline: 'Eu encontro opções <span>no seu orçamento</span>.', sub: 'Procurando imóvel no litoral? Me diz o que você procura e quanto quer investir.', cta: 'wa' },
+  };
+  const q = new URLSearchParams(location.search);
+  document.body.className = q.get('fmt') === 'v' ? 'v' : 'h';
+  const m = M[q.get('m') || 'm1'];
+  document.getElementById('pill').textContent = m.pill;
+  document.getElementById('headline').innerHTML = m.headline;
+  document.getElementById('sub').textContent = m.sub;
+  document.getElementById('cta').innerHTML = m.cta === 'wa'
+    ? `<div class="wa">${WA}WhatsApp ${NUM}</div>`
+    : `<div class="comment">${CHAT}Comente aqui embaixo 👇</div>`;
+</script>
+</body>
+</html>

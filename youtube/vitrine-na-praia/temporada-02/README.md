@@ -26,7 +26,7 @@ A métrica que vale mais que todas: **💰 vendas geradas pelo Vitrine na Praia.
 
 ### Cada episódio tem uma missão
 
-O episódio nunca termina com "espero que tenham gostado". Termina com **uma** ação comercial:
+O episódio nunca termina com "espero que tenham gostado". Termina com **uma** ação comercial. Falas, telas finais em vídeo (16:9 e 9:16), comentários fixados e links de WhatsApp de cada missão: `chamadas-finais/`.
 
 | Missão | CTA base |
 |---|---|

@@ -108,4 +108,4 @@
 > Lembra: do episódio à visita, a gente te ajuda a encontrar o seu imóvel ideal em até 30 dias.
 > Se inscreve no canal e ativa o sininho, porque no próximo episódio eu vou te mostrar [prévia do EP02]. Até lá!"
 
-*Tela final (últimos 20 s): botão de inscrição + vídeo sugerido + playlist da temporada.*
+*Tela final (últimos 20 s): `../chamadas-finais/m3-16x9-20s.mp4` (Missão 3, aberto a negociação), com os elementos Vídeo e Inscrever-se posicionados nas molduras.*
