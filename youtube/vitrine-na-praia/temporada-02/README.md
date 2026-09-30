@@ -123,4 +123,15 @@ Isso cobre os dois públicos da imobiliária:
 | EP | Imóvel | Categoria | Missão | Status |
 |---|---|---|---|---|
 | 01 | Edifício Absoluto Palace, 3 dormitórios, Navegantes | 🔴 Prioritário | M3: Gerar proposta (+ M1) | Confirmado como estreia. Em pré-produção. Ver `ep01/` |
-| 02 | *A definir pelo Roberto* | | | Aguardando |
+| 02 | Ed. Ilha de Saona (R$ 575 mil à vista) | 🟢 Entrada | M5: Captar clientes | Aguardando ficha |
+| 03 | Ed. Spazzio Nobre, 2 dorm (R$ 615 mil) | 🟢 Entrada | M4: Descobrir o perfil | Aguardando ficha |
+| 04 | Ed. Beira Mar, 3 dorm (R$ 1,15 mi) | 🔴 Prioritário | M2: Gerar visitas | Aguardando ficha |
+| 05 | Ed. Liliane (R$ 730 mil) | 🟡 Giro | M1: Gerar WhatsApp | Aguardando ficha |
+| 06 | Ed. Splendore, frente mar (R$ 1,8 mi) | 🔴 Prioritário | M2 + M3 | Aguardando ficha |
+| 07 | Ed. Pedro Henrique (R$ 795 mil) | 🟡 Giro | M2: Gerar visitas | Aguardando ficha |
+| 08 | Ed. Manhattan, 1 dorm de frente (R$ 850 mil) | 🟡 Giro | M4: Descobrir o perfil | Aguardando ficha |
+| 09 | Ed. Cartier (R$ 890 mil) | 🟡 Giro | M3: Gerar proposta | Aguardando ficha |
+| 10 | Ed. Miarge, alto padrão (R$ 3,4 mi) | 🔴 Prioritário | M5: Captar (alto padrão) | Aguardando ficha |
+| 11 | Ed. Lisboa, 3 dorm (preço a confirmar) | 🟡 Giro | M4: Descobrir o perfil | Aguardando ficha |
+
+Ordem e narrativa (escada de preços + um destaque 🔴 por semana): `grade-episodios.md`.
