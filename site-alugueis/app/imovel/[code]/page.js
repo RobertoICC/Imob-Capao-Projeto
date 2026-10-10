@@ -126,7 +126,7 @@ export default async function PropertyPage({ params, searchParams }) {
                       <td>
                         🎆 {k.label}<br />
                         <span className="small muted">
-                          entrada {brDate(k.check_in)} • saída {brDate(k.check_out)} • {nightsBetween(k.check_in, k.check_out)} noites
+                          entrada {brDate(k.check_in)} • saída {brDate(k.check_out)} • {nightsBetween(k.check_in, k.check_out)} noites{k.cleaning_included ? ' • limpeza inclusa' : ''}
                         </span>
                       </td>
                       <td><b>{money(k.total_price)}</b> total</td>

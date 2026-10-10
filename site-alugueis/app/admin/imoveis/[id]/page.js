@@ -277,7 +277,7 @@ function Editor() {
   }
 
   // ---------- Pacotes ----------
-  const [nk, setNk] = useState({ label: '', check_in: '', check_out: '', total_price: '', notes: '' });
+  const [nk, setNk] = useState({ label: '', check_in: '', check_out: '', total_price: '', notes: '', cleaning_included: true });
   const [pkErr, setPkErr] = useState('');
   async function addPackage(e) {
     e.preventDefault();
@@ -289,7 +289,7 @@ function Editor() {
       property_id: id, ...nk, total_price: toNum(nk.total_price), min_nights: nightsBetween(nk.check_in, nk.check_out), notes: nk.notes || null,
     });
     if (error) return setPkErr(error.message);
-    setNk({ label: '', check_in: '', check_out: '', total_price: '', notes: '' });
+    setNk({ label: '', check_in: '', check_out: '', total_price: '', notes: '', cleaning_included: true });
     load();
   }
   async function delPackage(k) {
@@ -522,7 +522,7 @@ function Editor() {
                       <td data-l="Pacote"><b>{k.label}</b>{k.notes && <div className="small muted">{k.notes}</div>}</td>
                       <td data-l="Entrada">{brDate(k.check_in)}</td>
                       <td data-l="Saída">{brDate(k.check_out)} ({nightsBetween(k.check_in, k.check_out)} noites)</td>
-                      <td data-l="Total">{money(k.total_price)}</td>
+                      <td data-l="Total">{money(k.total_price)}<div className="small muted">{k.cleaning_included ? 'limpeza inclusa' : '+ limpeza'}</div></td>
                       <td><button className="btn small danger" onClick={() => delPackage(k)}>Excluir</button></td>
                     </tr>
                   ))}
@@ -544,6 +544,11 @@ function Editor() {
                   <input type="text" inputMode="decimal" placeholder="Ex.: 15.800" value={nk.total_price} onChange={(e) => setNk({ ...nk, total_price: e.target.value })} />
                 </label>
               </div>
+              <label className="row small" style={{ gap: 8, cursor: 'pointer' }}>
+                <input type="checkbox" style={{ width: 18, height: 18, minHeight: 0 }} checked={nk.cleaning_included}
+                  onChange={(e) => setNk({ ...nk, cleaning_included: e.target.checked })} />
+                Limpeza já inclusa no valor do pacote
+              </label>
               {pkErr && <div className="alert err">{pkErr}</div>}
               <div><button className="btn">+ Adicionar pacote</button></div>
             </form>
