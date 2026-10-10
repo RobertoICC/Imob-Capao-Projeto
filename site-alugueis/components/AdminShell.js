@@ -55,6 +55,7 @@ export default function AdminShell({ children }) {
   const nav = [
     ['/admin', 'Imóveis'],
     ['/admin/reservas', 'Reservas e bloqueios'],
+    ['/admin/senha', 'Trocar senha'],
   ];
   return (
     <>
