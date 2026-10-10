@@ -74,3 +74,18 @@ export function norm(s) {
     .replace(/[̀-ͯ]/g, '')
     .toLowerCase();
 }
+
+/**
+ * Converte valores digitados do jeito brasileiro em número:
+ * "15.800" -> 15800 • "1.200,50" -> 1200.5 • "R$ 980" -> 980 • "980.5" -> 980.5
+ */
+export function toNum(v) {
+  if (v === null || v === undefined) return null;
+  if (typeof v === 'number') return v;
+  let s = String(v).replace(/[R$\s]/g, '');
+  if (s === '') return null;
+  if (s.includes(',')) s = s.replace(/\./g, '').replace(',', '.');
+  else if (/^\d{1,3}(\.\d{3})+$/.test(s)) s = s.replace(/\./g, '');
+  const n = Number(s);
+  return Number.isFinite(n) ? n : NaN;
+}

@@ -8,7 +8,7 @@ import { getSupabase } from '@/lib/supabase';
 import {
   AMENITIES, CITIES, NEIGHBORHOODS, PROPERTY_TYPES, RATE_KINDS, STATUS, BOOKING_STATUS, REVEILLON_DEFAULT,
 } from '@/lib/constants';
-import { money, brDate, nightsBetween, todayISO } from '@/lib/format';
+import { money, brDate, nightsBetween, todayISO, toNum } from '@/lib/format';
 
 const EMPTY = {
   title: '', property_type: 'apartamento', city: 'Capão da Canoa', neighborhood: '', address: '',
@@ -29,7 +29,7 @@ function clean(obj, keys) {
   const out = {};
   for (const k of keys) {
     let v = obj[k];
-    if (NUMERIC.includes(k)) v = v === '' || v === null || v === undefined ? null : Number(v);
+    if (NUMERIC.includes(k)) v = toNum(v);
     else if (typeof v === 'string') v = v.trim() === '' && !['description', 'rules', 'title'].includes(k) ? null : v;
     out[k] = v;
   }
@@ -124,7 +124,9 @@ function Editor() {
   function validate(v) {
     if (!v.title.trim()) return 'Informe o título do imóvel.';
     if (!(Number(v.capacity) > 0)) return 'Informe a capacidade de hóspedes.';
-    if (v.price_per_night === '' || Number(v.price_per_night) < 0) return 'Informe a diária padrão.';
+    const pr = toNum(v.price_per_night);
+    if (pr === null || Number.isNaN(pr) || pr < 0) return 'Informe a diária padrão (somente números, ex.: 980).';
+    for (const k of ['price_holiday', 'cleaning_fee']) if (Number.isNaN(toNum(v[k]))) return 'Valor inválido em preços. Use só números, ex.: 1.200';
     return '';
   }
 
@@ -253,9 +255,10 @@ function Editor() {
     e.preventDefault();
     setRateErr('');
     if (!nr.label || !nr.start_date || !nr.end_date || nr.price_per_night === '') return setRateErr('Preencha nome, datas e valor.');
+    if (Number.isNaN(toNum(nr.price_per_night))) return setRateErr('Valor inválido. Use só números, ex.: 1.200');
     if (nr.end_date <= nr.start_date) return setRateErr('A data final precisa ser depois da inicial.');
     const { error } = await sb.from('property_rates').insert({
-      property_id: id, ...nr, price_per_night: Number(nr.price_per_night), min_nights: Number(nr.min_nights) || 1,
+      property_id: id, ...nr, price_per_night: toNum(nr.price_per_night), min_nights: Number(nr.min_nights) || 1,
     });
     if (error) return setRateErr(error.message);
     setNr({ label: '', kind: 'alta', start_date: '', end_date: '', price_per_night: '', min_nights: 2 });
@@ -281,8 +284,9 @@ function Editor() {
     setPkErr('');
     if (!nk.label || !nk.check_in || !nk.check_out || nk.total_price === '') return setPkErr('Preencha nome, datas e valor total.');
     if (nk.check_out <= nk.check_in) return setPkErr('A saída precisa ser depois da entrada.');
+    if (Number.isNaN(toNum(nk.total_price))) return setPkErr('Valor inválido. Use só números, ex.: 15.800');
     const { error } = await sb.from('property_packages').insert({
-      property_id: id, ...nk, total_price: Number(nk.total_price), min_nights: nightsBetween(nk.check_in, nk.check_out), notes: nk.notes || null,
+      property_id: id, ...nk, total_price: toNum(nk.total_price), min_nights: nightsBetween(nk.check_in, nk.check_out), notes: nk.notes || null,
     });
     if (error) return setPkErr(error.message);
     setNk({ label: '', check_in: '', check_out: '', total_price: '', notes: '' });
@@ -301,7 +305,7 @@ function Editor() {
   }[save.state];
 
   const commission = Number(priv.commission_pct) || 0;
-  const suggested = priv.owner_net_price !== '' ? Math.round(Number(priv.owner_net_price) * (1 + commission / 100)) : null;
+  const suggested = toNum(priv.owner_net_price) ? Math.round(toNum(priv.owner_net_price) * (1 + commission / 100)) : null;
 
   return (
     <div>
@@ -431,13 +435,13 @@ function Editor() {
         <h2>4. Preços (valor final ao hóspede, já com comissão)</h2>
         <div className="grid g4">
           <label className="f">Diária padrão *
-            <input type="number" min="0" inputMode="decimal" value={p.price_per_night} onChange={(e) => set('price_per_night', e.target.value)} />
+            <input type="text" inputMode="decimal" placeholder="Ex.: 980" value={p.price_per_night} onChange={(e) => set('price_per_night', e.target.value)} />
           </label>
           <label className="f">Diária festas (referência)
-            <input type="number" min="0" inputMode="decimal" value={p.price_holiday} onChange={(e) => set('price_holiday', e.target.value)} />
+            <input type="text" inputMode="decimal" placeholder="Ex.: 980" value={p.price_holiday} onChange={(e) => set('price_holiday', e.target.value)} />
           </label>
           <label className="f">Taxa de limpeza
-            <input type="number" min="0" inputMode="decimal" value={p.cleaning_fee} onChange={(e) => set('cleaning_fee', e.target.value)} />
+            <input type="text" inputMode="decimal" placeholder="Ex.: 980" value={p.cleaning_fee} onChange={(e) => set('cleaning_fee', e.target.value)} />
           </label>
           <label className="f">Estadia mínima (noites)
             <input type="number" min="1" inputMode="numeric" value={p.min_nights} onChange={(e) => set('min_nights', e.target.value)} />
@@ -484,7 +488,7 @@ function Editor() {
                   </select>
                 </label>
                 <label className="f">Diária no período
-                  <input type="number" min="0" value={nr.price_per_night} onChange={(e) => setNr({ ...nr, price_per_night: e.target.value })} />
+                  <input type="text" inputMode="decimal" placeholder="Ex.: 1.200" value={nr.price_per_night} onChange={(e) => setNr({ ...nr, price_per_night: e.target.value })} />
                 </label>
                 <label className="f">Primeira noite
                   <input type="date" value={nr.start_date} onChange={(e) => setNr({ ...nr, start_date: e.target.value })} />
@@ -537,7 +541,7 @@ function Editor() {
                   <input type="date" value={nk.check_out} onChange={(e) => setNk({ ...nk, check_out: e.target.value })} />
                 </label>
                 <label className="f">Valor total
-                  <input type="number" min="0" value={nk.total_price} onChange={(e) => setNk({ ...nk, total_price: e.target.value })} />
+                  <input type="text" inputMode="decimal" placeholder="Ex.: 15.800" value={nk.total_price} onChange={(e) => setNk({ ...nk, total_price: e.target.value })} />
                 </label>
               </div>
               {pkErr && <div className="alert err">{pkErr}</div>}
@@ -590,10 +594,10 @@ function Editor() {
             <input inputMode="tel" value={priv.manager_phone} onChange={(e) => setPv('manager_phone', e.target.value)} />
           </label>
           <label className="f">Líquido proprietário (diária)
-            <input type="number" min="0" value={priv.owner_net_price} onChange={(e) => setPv('owner_net_price', e.target.value)} />
+            <input type="text" inputMode="decimal" value={priv.owner_net_price} onChange={(e) => setPv('owner_net_price', e.target.value)} />
           </label>
           <label className="f">Líquido proprietário (festas)
-            <input type="number" min="0" value={priv.owner_net_price_holiday} onChange={(e) => setPv('owner_net_price_holiday', e.target.value)} />
+            <input type="text" inputMode="decimal" value={priv.owner_net_price_holiday} onChange={(e) => setPv('owner_net_price_holiday', e.target.value)} />
           </label>
           <label className="f">Comissão (%)
             <input type="number" min="0" value={priv.commission_pct} onChange={(e) => setPv('commission_pct', e.target.value)} />
